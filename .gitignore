@@ -1,0 +1,14 @@
+# Fichiers de configuration
+configuration
+# Documents numériques
+files/*
+!files/cr
+# Images
+photos/*
+!photos/bureau
+!photos/equipes
+!photos/equipes
+!photos/photoWeek
+photos/photoWeek/*
+# Projet Aptana
+.project
