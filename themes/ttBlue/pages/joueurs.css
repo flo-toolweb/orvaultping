@@ -1,0 +1,89 @@
+div#d_intro{
+	text-align: center;
+	font-size: 0.95em;
+}
+/* ___  LISTE DES JOUEURS ___ */
+
+div#d_liste a {
+	color: #03638A;
+}
+
+div#d_liste{
+	position:relative;
+} 
+div#d_liste_header{
+	position:relative;
+	text-align: center;
+	width: 720px;
+	padding-bottom: 10px;
+	font-size: 0.85em;
+	font-weight: normal;
+	color: #333333;	
+} 
+div#d_liste_header a:hover{
+	text-decoration: none;
+	background-color: #FFCC66;
+}
+table#t_liste {
+	width: 450px;
+	border-collapse: collapse;
+	margin-left: 135px;
+	border: 2px solid #03638A;
+	border-left: none;
+	border-right: none;
+	font-size: 0.9em;
+	font-weight: normal;
+	color: #333333;	
+}
+table#t_liste thead{
+	background-color: #03638A;
+	color: white;	
+}
+table#t_liste thead a{
+	color: white;	
+}
+table#t_liste th{
+	text-align: center;
+}
+table#t_liste tr,td,th{
+	border: 1px solid #03638A;
+	padding: 3px;
+}
+tr.tr_liste1{
+	/*background-color: #D5FFFF;*/
+	background-image:url(img/fond_forum_td_1.png);
+}
+tr.tr_liste1:hover{
+	background-image:none;
+	background-color: #FFCC66;
+}
+tr.tr_liste2{
+	/*background-color: #DCFFFF;*/
+	background-image:url(img/fond_forum_td_2.png);
+}
+tr.tr_liste2:hover{
+	background-image:none;
+	background-color: #FFCC66;
+}
+table#t_liste td{
+}
+td.td_joueur{
+	width: 60%;
+	padding-left:6px;
+	font-size: 1em;
+	color: #004080;	
+	font-weight: bold;	
+}
+td.td_cat {
+	width: 20%;
+	font-size: 0.95em;
+	font-weight: normal;	
+	text-align: center;
+}
+td.td_classement {
+	width: 20%;
+	font-size: 1em;
+	font-weight: bold;	
+	text-align: center;
+}
+

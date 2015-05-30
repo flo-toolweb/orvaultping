@@ -1,0 +1,28 @@
+  /* CONTACTS */
+ 
+div.d_contact{
+	margin-left:30px;
+}
+div.d_contact_gauche{
+	position:relative;
+	float:left;
+	text-align:left;
+	width:280px;
+}
+div.d_contact_droite{
+	position:relative;
+	text-align:left;
+	width:280px;
+	overflow:auto;
+}
+div#d_plan{
+	text-align: center;
+}
+div#d_plan h2{
+	text-decoration: underline;
+}
+div#d_plan img{
+	margin-top: 10px;
+	border: 1px solid black;
+}
+/* FIN CONTACTS  */

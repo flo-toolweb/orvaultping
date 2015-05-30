@@ -1,0 +1,25 @@
+  /* PARTENAIRES */
+
+div#d_partenaires img{
+	border: 1px solid #000000;
+}
+div#d_partenaires .d_row{
+	clear: both;
+	margin-bottom: 25px;
+	margin-left: 35px;
+	text-align: center;
+}
+div#d_partenaires .d_row .s_row_left{
+	display: inline-block;
+	vertical-align: middle;
+	width: 330px;
+	margin: auto;
+	text-align: center;
+}
+div#d_partenaires .d_row .s_row_right{
+	display: inline-block;
+	vertical-align: middle;
+	width: 330px;
+	margin: auto;
+	text-align: center;
+}

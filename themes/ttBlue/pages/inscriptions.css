@@ -1,0 +1,99 @@
+  /* BUREAU */
+  
+h2 {
+	text-align: center;
+}
+p {
+	font-size: 1.0em;
+	line-height: 18px;
+}
+  
+div#d_inscriptions{
+	margin: auto;
+	width:640px;
+	padding-left: 6px;
+	text-align: left;
+}
+.d_infos_importantes{
+	border: 1px solid #03638A;
+	background-color: #FFCC66;
+	margin-left: -6px;
+	padding: 6px;
+}
+.d_infos_importantes2{
+	border: 1px solid #03638A;
+	margin-left: -6px;
+	padding: 6px;
+}
+
+span.s_alinea{
+	display: inline-block;
+	padding-left: 40px;
+}
+span.s_petit{
+	font-size: 0.9em;
+}
+div.d_center{
+	width: 100%;
+	text-align: center;
+}
+table#t_licence {
+	border-collapse: collapse;
+	text-align: center;
+}
+table#t_licence  th{
+	border: 1px solid #03638A;
+	background-color: #FFCC66;
+	font-weight: bold;
+	padding: 4px;
+}
+table#t_licence  td{
+	border: 1px solid #03638A;
+	background-color: #FFCC66;
+	font-weight: bold;
+	padding: 4px;
+}
+table#t_licence  span.s_normal{
+	font-weight: normal;
+}
+table#t_licence  .td_vide{
+	width: 26%;
+	border-top: none;
+	border-left: none;
+	background-color: transparent;	
+}
+table#t_licence  .td_tradi{
+	width: 37%;
+}
+table#t_licence  .td_promo{
+	width: 37%;
+}
+table#t_criterium  {
+	width: 600px;
+	text-align: left;
+}
+table#t_criterium  .td_criterium1{
+	width: 25%;
+	font-weight: bold;
+}
+table#t_criterium  .td_criterium2{
+	width: 25%;
+}
+table#t_criterium  .td_criterium3{
+	width: 50%;
+}
+table#t_championnat{
+	width: 600px;
+	text-align: left;
+}
+table#t_championnat .td_championnat1{
+	width: 40%;
+	font-weight: bold;
+}
+table#t_championnat .td_championnat2{
+	width: 15%;
+}
+table#t_championnat .td_championnat3{
+	width: 45%;
+}
+/* FIN BUREAU */

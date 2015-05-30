@@ -1,0 +1,144 @@
+
+
+div#d_sous_menu{
+	position:relative;
+	width: 740px;
+	height:16px;
+	background-color: #FFCC66;
+	padding-right:20px;
+	padding-top:3px;
+	margin-bottom:20px;
+	text-align: right;
+	border: 1px solid #03638A;
+	font-size: 0.85em;
+	font-weight: bold;
+	color: #03638A;
+ }
+div#d_sous_menu a{
+	color: #03638A;
+}
+ 
+div.d_msg{	
+	position:relative;
+	text-align: center;
+	width: 530px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	margin-bottom: 15px;
+	background-color: palegreen;
+	border: 1px solid #006600;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #006600;	
+}
+span#s_titre_page{
+	font-size: 1.1em;
+	font-weight: bold;	
+}
+div#d_aff_infos_ext{
+	position:relative;
+	width: 600px;
+	padding-left:80px;
+} 
+div#d_aff_infos{
+	position:relative;
+} 
+ 
+ 
+/* ___ FORMULAIRES ___ */
+
+div.d_row {
+	clear: both;
+	padding: 5px;
+	text-align: center;
+	width: 520px;
+	overflow: auto;
+	font-size: 1em;
+}
+div.d_titre_form{
+	font-size: 0.85em;
+	font-weight: bold;
+	color: #03638A;
+	background-color: #FFCC66;
+	text-align: center;
+	padding-top:2px;
+	margin-top:6px;
+	margin-bottom:6px;
+	height:15px;
+	border-top: 1px solid #03638A;
+	border-bottom: 1px solid #03638A;
+ }
+div#d_titre_form_haut{
+	font-size: 0.85em;
+	font-weight: bold;
+	color: #03638A;
+	background-color: #FFCC66;
+	text-align: center;
+	padding-top:2px;
+	margin-top:0px;
+	margin-bottom:6px;
+	height:15px;
+	border-bottom: 1px solid #03638A;
+ }
+
+div.d_row  input{
+	border: 1px solid #03638A;
+}
+div.d_row  input:focus{
+	border: 1px solid #FF9900;
+}
+div.d_row  select,textarea{
+	border: 1px solid #03638A;
+}
+
+*.i_bouton {
+	border: 1px solid #03638A;
+	cursor : pointer; 	
+	padding: 1px;
+	font-size: 0.85em;
+	font-weight: bold;
+	color: #03638A;
+}
+*.i_bouton:hover{
+	background-color: #FFCC66;	
+}
+
+span.c_form_gauche{
+	float: left;
+	width: 130px;
+	text-align: right;
+}
+
+span.c_form_droite{
+	float: right;
+	width: 380px;
+	text-align: left;
+}
+
+div#d_form_footer {
+	border-top: 1px solid #03638A;
+	margin-top:5px;
+	padding-top:5px;
+	height: auto;
+}
+
+fieldset {
+	border: 1px solid #03638A;
+	width: 530px;
+}
+
+legend{
+	color: #03638A;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+label { 
+	cursor : pointer; 
+}
+
+textarea {
+	font-family: arial, sans-serif;
+	font-size: 1em;
+}

@@ -1,0 +1,90 @@
+
+div#d_haut{
+	position:relative;
+	height:270px;
+	padding-left:60px;
+	overflow:visible;
+ }
+ 
+div#d_ajout{	
+	position:absolute;
+	width: 630px;
+	text-align:center;
+ }
+ 
+div#d_modif{	
+	position:absolute;
+	width: 630px;
+ }
+ div#d_bas{	
+	position:relative;
+	text-align:center;
+	overflow:auto;
+ }
+ span#s_erreur{
+	color: #FF0000;
+	font-family: arial, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+ div#d_news_list{	
+	width: 750px;	
+ }
+ 
+table#t_list{	
+	margin:0px auto;
+	margin-top:10px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	width:95%;
+}
+table#t_list td{	
+	padding-left:3px;
+	padding-right:3px;
+}
+ 
+/* ___ FORMULAIRES ___ */
+
+div.d_row {
+	padding: 5px 5px 10px 5px;
+	overflow: hidden;
+}
+
+span.c_form_gauche{
+	width: 100px;
+}
+
+span.c_form_droite{
+	width: 470px;
+}
+div.d_row span.c_form_droite input.mise_en_forme{
+    border: 0 solid #03638A;
+    color: black;
+    cursor: pointer;
+    font-size: 0.9em;
+    height: 17px;
+    outline: 1px outset #03638A;
+    padding: 0 2px 18px 2px;
+}
+div.d_row span.c_form_droite input.mise_en_forme:hover{
+	outline: 1px inset #03638A;
+}
+input#btn_bold{
+	margin-left:0px;
+	font-weight: bold;
+}
+input#btn_italic{
+	margin-left:10px;
+	font-style: italic;
+}
+input#btn_link{
+	margin-left:60px;
+	text-align: left;
+	width:68px;
+	background-image:url(../../themes/ttBlue/pages/img/forum_link.png);
+	background-repeat: no-repeat;
+	background-position:right;
+}
+fieldset {
+	padding-bottom: 0px;
+}

@@ -1,0 +1,48 @@
+div#d_updateBDD{
+	width: 440px;
+	margin:auto;
+}
+span#s_erreur{
+	color: #FF0000;
+	font-family: arial, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+div#d_ajout{	
+	position:absolute;
+	width: 490px;
+	text-align:center;
+}
+div#d_modif{	
+	position:absolute;
+	width: 440px;
+}
+div#d_list_result{	
+	text-align: left;
+	width: 640px;
+	margin: auto;
+	padding: 10px;
+	background-image: url(img/fond_news_1.png);
+	line-height: 20px;
+	border: 1px solid #03638A;
+}
+ 
+/* ___ FORMULAIRES ___ */
+
+div.d_row {
+	clear: both;
+	padding: 5px;
+	text-align: center;
+}
+
+span.c_form_gauche{
+	float: left;
+	width: 130px;
+	text-align: right;
+}
+
+span.c_form_droite{
+	float: right;
+	width: 250px;
+	text-align: left;
+}

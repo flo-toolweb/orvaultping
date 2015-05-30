@@ -1,0 +1,27 @@
+*{margin:0;padding:0;}
+
+html {
+	font-size: 100%;
+}
+body {
+	background-color: #000000;
+	font-family: arial, sans-serif;
+	font-size: 0.8em;
+}
+div#d_global{
+	position:relative;
+	width:350px;
+	height:200px;
+	overflow:visible;
+	vertical-align:top;
+	border: 1px solid red;
+}
+div.d_errUpload{
+	position:relative;
+	width:350px;
+	height:200px;
+	overflow:visible;
+	vertical-align:top;
+	border: 1px solid red;
+}
+?>

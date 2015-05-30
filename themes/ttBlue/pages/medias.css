@@ -1,0 +1,212 @@
+  /* PHOTOS */
+ 
+div#d_haut{
+	position:relative;
+	padding-top: 10px;
+}
+div#d_cat {
+}
+div#d_selectSaison{
+	width: 570px;
+	margin: auto;
+	padding: 0;
+	text-align: left;
+}
+select#select_saison {	
+	border: 1px solid #03638A;
+	margin-bottom: 2px;
+}
+
+div#d_catTitre {
+	margin: auto;
+	height: 22px;
+	text-align: center;
+	width: 570px;
+	padding-top:8px;
+	border: 1px solid #03638A;
+	background-color: #FFCC66;
+	color: #03638A;
+	font-family: arial, sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+div#d_catEx{
+	position:relative;
+	overflow:auto;
+	text-align: center;
+	padding:15px;
+	padding-left:30px;
+	padding-bottom: 20px;
+	font-family: arial, sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+div.d_cat {
+	float:left;
+	line-height:18px;
+	padding-left:6px;
+	padding-right:6px;
+	border: 1px solid #03638A;
+	margin-right:15px;
+	margin-bottom:5px;
+	cursor: pointer;
+}
+div.d_cat:hover{
+	background-color: #FFCC66;
+}
+div#d_bas{
+	position:relative;
+}
+div#d_miniatures{
+	position:relative;
+	overflow:auto;
+	text-align: center;
+	padding-top:15px;
+	padding-bottom: 20px;
+}
+div#d_minTitre {
+	margin: auto;
+	height: 22px;
+	text-align: center;
+	width: 570px;
+	padding-top:8px;
+	background-color: #FFCC66;
+	border: 1px solid #03638A;
+	color: #03638A;
+	font-family: arial, sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+div#d_minTitre a{
+	color: #03638A;
+}
+div#d_minDesc{
+	text-align: center;
+	width: 100%;
+	padding-top:5px;
+	padding-bottom:5px;
+	color: black;
+	font-family: arial, sans-serif;
+	font-size: 0.9em;
+}
+div#d_minEx{
+	position:relative;
+	overflow:auto;
+	text-align: center;
+	padding:15px;
+	padding-left:30px;
+	padding-bottom: 20px;
+	}
+div.s_min_photos{
+	float:left;
+	padding:2px;
+	padding-bottom:0px;
+	margin-right:6px;
+	margin-left:3px;
+	margin-bottom:8px;
+	text-align:center;
+	border: 1px solid #03638A;
+}
+/* Carousel */
+div#d_carousel{
+	margin:auto;
+	margin-top: 15px;
+	padding: 5px;
+	width:560px;
+	border:1px solid black;
+	text-align:center;
+	color: black;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#slider1 {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	overflow: auto;
+}
+
+#slider1 li {
+	float: left;
+	width: 187px;	
+	margin: 0;	
+	margin-top: 6px;	
+	line-height: 16px;
+	text-align: center;
+}
+#slider1 li div{
+	/*border: 1px dotted black;*/
+	padding: 4px;
+	margin: 4px;
+}
+#slider1 span{
+	display: block;
+}
+
+#slider1 img {
+	margin: auto;
+	border: solid #000 1px;
+	cursor: pointer;
+}
+/*next button*/
+.bx-next {
+	position:absolute;
+	top:35%;
+	right:-50px;
+	z-index:999;
+	width: 35px;
+	height: 35px;
+	text-indent: -999999px;
+	background: url(img/photos_orange_next.png) no-repeat;
+}
+
+/*previous button*/
+.bx-prev {
+	position:absolute;
+	top:35%;
+	left:-50px;
+	z-index:999;
+	width: 35px;
+	height: 35px;
+	text-indent: -999999px;
+	background: url(img/photos_orange_prev.png) no-repeat;
+}
+/*next/prev button hover state*/
+.bx-next:hover{
+	background: url(img/photos_orange_next_hover.png) no-repeat;
+}
+.bx-prev:hover {
+	background: url(img/photos_orange_prev_hover.png) no-repeat;
+}
+/*pager links*/
+.bx-pager a {
+	display: inline-block;
+	margin-right: 5px;
+	color: #333;
+	width: 20px;
+	height: 17px;
+	padding-top: 3px;
+	font-size: 12px;
+	background: url(img/photos_orange_pager.png) no-repeat 0;
+	background-position:center; 
+}
+/*pager links hover and active states*/
+.bx-pager .pager-active,
+.bx-pager a:hover {
+	background: url(img/photos_orange_pager_hover.png) no-repeat 0;
+	background-position:center; 
+}
+
+ 
+/* FIN PHOTOS */
+
+
+
+
+
+
+
+
+
+

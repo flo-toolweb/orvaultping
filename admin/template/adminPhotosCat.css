@@ -1,0 +1,86 @@
+
+div#d_haut{
+	position:relative;
+	height:210px;
+	padding-left:60px;
+	overflow:visible;
+ }
+ 
+div#d_ajout{	
+	position:absolute;
+	width: 630px;
+	text-align:center;
+ }
+ 
+div#d_modif{	
+	position:absolute;
+	width: 630px;
+ }
+ div#d_bas{	
+	position:relative;
+	text-align:center;
+	overflow:auto;
+ }
+ span#s_erreur{
+	color: #FF0000;
+	font-family: arial, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+ div#d_news_list{	
+	width: 750px;	
+ }
+ 
+table#t_list{	
+	margin:0px auto;
+	margin-top:10px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	width:60%;
+}
+table#t_list td{	
+	padding-left:3px;
+	padding-right:3px;
+}
+ 
+/* ___ FORMULAIRES ___ */
+
+div.d_row {
+	clear: both;
+	padding: 5px;
+	text-align: center;
+}
+
+span.c_form_gauche{
+	float: left;
+	width: 100px;
+	text-align: right;
+}
+
+span.c_form_droite{
+	float: right;
+	width: 470px;
+	text-align: left;
+}
+
+fieldset {
+	border: 1px solid #000000;
+	border: thin solid #FF9900;
+	padding: 10px;
+}
+
+legend{
+	color: #000000;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+label { 
+	cursor : pointer; 
+}
+
+textarea {
+	font-family: arial, sans-serif;
+	font-size: 1em;
+}

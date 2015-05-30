@@ -1,0 +1,81 @@
+  /* PHOTOS */
+
+div#d_equipes{
+	padding-left:10px;
+	padding-bottom:15px;
+	overflow:hidden;
+} 
+div#d_gauche{
+	position:relative;
+	float: left;
+	width: 160px;
+	min-height:360px;
+	padding-top:15px;
+	border-right: 2px solid #03638A;
+}
+div#d_gauche span.s_equipes{
+	display: block;
+	margin: 10px 0;
+}
+div#d_gauche span.s_equipes_separateur{
+	display: block;
+	border-top: 1px dotted #03638A;
+	margin: 10px 5px 10px 0px;
+}
+ 
+div#d_droite{
+	position:relative;
+	overflow:auto;
+	width: 580px;
+	padding-top:10px;
+	text-align: center;
+}
+div#d_droite img{
+	border: 2px solid #03638A;
+}
+div#d_aff_equipe{
+	text-align: center;
+}
+
+table#t_equipe{
+	margin-left:90px;
+	width: 400px;
+	border-collapse: collapse;
+	border: 1px solid #03638A;
+}
+table#t_equipe td, th{
+	border: 1px solid #03638A;
+	padding-top:1px;
+	padding-bottom:1px;
+}
+tr.tr_titre{
+	height: 30px;
+	text-align: center;
+	background-color: #FFCC66;
+	font-size:1.2em;
+}
+td.td_nom {
+	width:320px;
+	padding-left: 10px;
+	text-align: left;
+	font-size:1em;
+}
+td.td_points{
+	text-align: center;
+	width:80px;
+}
+tr.tr_footer{
+	font-weight: bold;
+	height: 22px;
+	text-align: center;
+	background-color: #FFCC66;
+}
+span#s_phase {
+	line-height: 22px;
+	font-size:0.9em;	
+}
+
+
+
+
+

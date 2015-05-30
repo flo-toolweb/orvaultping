@@ -1,0 +1,52 @@
+/* STYLES DIAPORAMA */
+
+*{margin:0;padding:0;}
+
+html {
+	font-size: 100%;
+}
+body {
+	background-color: #000000;
+	font-family: arial, sans-serif;
+	font-size: 0.8em;
+	text-align: center ; 
+}
+img {
+	border: 2px solid #333333;
+}
+p {
+	font-size: 1em;
+}
+
+ 
+div#d_contenu{	
+	position:relative;
+	text-align: center;
+	/*border: 1px solid yellow;*/
+}
+ 
+ 
+/* ___ BOUTONS ___ */
+
+input.i_btn{
+	border: 1px solid #999999;
+	cursor : pointer; 	
+	padding: 1px;
+	margin-top: 12px;
+	margin-bottom: 10px;
+	font-size: 0.85em;
+	font-weight: bold;
+	background-color: #FFCC66;
+	color: #666666;
+}
+input.i_btn:hover{
+	background-color: Moccasin;	
+	color: #000000;
+}
+input#automat{
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+}

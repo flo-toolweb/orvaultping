@@ -1,0 +1,78 @@
+
+div#d_haut{
+	position:relative;
+	height:120px;
+	padding-left:120px;
+	overflow:visible;
+}
+div#d_ajout{	
+	width: 480px;
+	text-align:center;
+}
+
+div#d_bas{	
+	position:relative;
+	text-align:center;
+	overflow:visible;
+}
+span#s_erreur{
+	color: #FF0000;
+	font-family: arial, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+div#d_list{	
+	width: 750px;
+ }
+div#d_bas{
+	margin-bottom: 50px;
+}
+div.s_min_photos{
+	float:left;
+	padding:4px;
+	margin-left:3px;
+	margin-bottom:3px;
+	text-align:center;
+	border: thin solid CadetBlue;
+}
+
+/* ___ FORMULAIRES ___ */
+
+div.d_row {
+	clear: both;
+	padding: 5px;
+	text-align: center;
+}
+
+span.c_form_gauche{
+	float: left;
+	width: 80px;
+	text-align: right;
+}
+
+span.c_form_droite{
+	float: right;
+	width: 350px;
+	text-align: left;
+}
+
+fieldset {
+	border: thin solid #FF9900;
+	padding: 10px;
+}
+
+legend{
+	color: #000000;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+label { 
+	cursor : pointer; 
+}
+
+textarea {
+	font-family: arial, sans-serif;
+	font-size: 1em;
+}

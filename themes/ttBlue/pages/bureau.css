@@ -1,0 +1,9 @@
+  /* BUREAU */
+div#d_bureau_photo{
+	width: 740px;
+	text-align: center;
+}
+div#d_bureau_photo img{
+	border: solid 2px #03638A;;
+}
+/* FIN BUREAU */
