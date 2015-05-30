@@ -1,5 +1,5 @@
 # Fichiers de configuration
-configuration
+config/config.php
 # Documents numériques
 files/*
 !files/cr

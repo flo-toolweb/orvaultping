@@ -1,0 +1,35 @@
+<?php
+
+# ***** ORVAULT SPORT TENNIS DE TABLE *****
+# =========================================
+#
+# * Fichier de configuration *
+#
+# C'est le seul fichier à modifier pour une mise en ligne.
+#
+# ***** ORVAULT SPORT TENNIS DE TABLE *****
+# =========================================
+
+if (!defined('CONFIG') ) {
+	define("CONFIG",true);
+	
+	//Definition du chemin vers le fichier index.php de l'application
+	define("CHEMIN",".");
+	define("RACINE","D:\Developpement\Serveurs\Wamp\www\orvaultping.com");
+	//Definition du theme
+	define("THEME","ttBlue");
+	// Connexion à la base de données
+	define("DB_HOST", "localhost");
+	define("DB_USER", "localhost");
+	define("DB_PASS", "");
+	define("DB_NAME", "orvaultp");	
+}
+
+
+
+
+
+
+
+
+?>
