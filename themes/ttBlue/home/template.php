@@ -61,7 +61,7 @@ include('include/class_fetes.php');
 				<div id="d_header_gauche">
 					<div id="d_id">	
 						<div id="d_id_titre">	
-							<p>Identification</p>
+							<p>Identification TEST</p>
 						</div>
 							
 						<div id="d_id_contenu">	
