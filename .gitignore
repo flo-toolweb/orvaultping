@@ -7,7 +7,6 @@ files/*
 photos/*
 !photos/bureau
 !photos/equipes
-!photos/equipes
 !photos/photoWeek
 photos/photoWeek/*
 # Projet Aptana

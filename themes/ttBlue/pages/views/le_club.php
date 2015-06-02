@@ -51,13 +51,22 @@
 		</span><br/>
 		<br/>
 		<span>
-			La perspective d'une nouvelle salle spécifique en 2014-2015 sur le complexe de la Cholière nous permettra non seulement d'envisager plus d'évènements et d'actions au sein de l'association 
-			mais aussi de faire se croiser les différentes générations qui la composent.
+			La salle Germain Tilagone livrée en mars dernier sur le complexe de la Cholière nous permet d'envisager une saison 2015/2016 riche en évènements au sein de l'association.
 		</span><br/>
 	</p>
 	<br/>
+		<H2>Cours de <b>Baby-ping</b> le samedi matin à partir de la rentrée (septembre 2015)</h2><br/><span>
+			Le club proposera 2 groupes d’une durée de 1h15<br/><span>
+			- 1 groupe baby ping pour les 4 à 6 ans<br/>
+			- 1 groupe débutants pour les 7 à 9 ans.<br/>
+			Nombre de participants par groupes : 8 à 12.<br/>
+			Horaires : 9h30 à 10h45 et 10h45 à 12h.
+		</span><br/>
+	</span>
+
 	<br/>
-	<h2>Les entraînements :</h2><br/>
+	<br/>
+	<h2>Le planning prévisionnel des entraînements pour la saison 2015/2016:</h2><br/>
 		<br/>
 		<table id="t_entrainements">
 			<thead>
@@ -77,51 +86,60 @@
 				<td class="td_vide"></td>
 			</tr>
 			<tr>
-				<td class="td_heures"> - 16H</td>
+				<td class="td_heures"> - 15H</td>
 				<td rowspan="3" class="td_vide"></td>
-				<td rowspan="3" class="td_jeune"><b>Jeunes - 2<sup>ème</sup> groupe</b><br/>16h00 - 17h15<br/>Frédéric</td>
+				<td rowspan="3" class="td_jeune"><b>Groupe initiation 2</b><br/>(20 jeunes)<br/>15h00 - 16h30</td>
+				<td rowspan="3" class="td_vide"></td>
 				<td rowspan="3" class="td_vide"></td>
 				<td rowspan="3" class="td_vide"></td>
 			</tr>
 			<tr>
 				<td class="td_heures"> - </td>
+			</tr><tr>
+				<td class="td_heures"> - 16H</td>
+			</tr>
+			<tr>
+				<td class="td_heures"> - </td>
+				<td rowspan="3" class="td_vide"></td>
+				<td rowspan="3" class="td_jeune"><b>Groupe performance</b><br/>(14 jeunes)<br/>16h30 - 18h00</td>
+				<td rowspan="3" class="td_vide"></td>
+				<td rowspan="3" class="td_vide"></td>
 			</tr>
 			<tr>
 				<td class="td_heures"> - 17H</td>
 			</tr>
 			<tr>
 				<td class="td_heures"> - </td>
-				<td class="td_vide"></td>
-				<td rowspan="2" class="td_jeune"><b>Jeunes - 3<sup>ème</sup> groupe</b><br/>17h15 - 18h30<br/>Frédéric</td>
-				<td class="td_vide"></td>
-				<td  rowspan="5" class="td_vide"></td>
 			</tr>
 			<tr>
 				<td class="td_heures"> - 18H</td>
-				<td rowspan="3" class="td_jeune"><b>Jeunes - 1<sup>er</sup> groupe</b><br/>18h15 - 19h30<br/>Frédéric</td>
-				<td rowspan="2" class="td_competition" style="width: 20%"><b>Entrainement Adulte Compétition (libre)</b><br/>18h00 - 19h00</td>
+				<td rowspan="3" class="td_jeune"><b>Groupe initiation 1</b><br/>(16 jeunes)<br/>18h00 - 19h30</td>
+				<td rowspan="3" class="td_jeune"><b>Elite Jeunes</b><br/>(8 joueurs)<br/>18h00 - 19h30</td>
+				<td rowspan="3" class="td_jeune"><b>Groupe mixte performance / Elite jeunes</b><br/>18h00 - 19h30</td>
+				<td rowspan="3" class="td_jeune"><b>Groupe performance</b><br/>18h00 - 19h30</td>
 			</tr>
 			<tr>
 				<td class="td_heures"> - </td>
-				<td rowspan="3" class="td_jeune"><b>Jeunes - 4<sup>ème</sup> groupe</b><br/>18h30 - 20h00<br/>Frédéric</td>
 			</tr>
 			<tr>
 				<td class="td_heures"> - 19H</td>
-				<td rowspan="3" class="td_loisir"><b>Loisirs - 1<sup>er</sup> groupe</b><br/>19h00 - 20h45<br/>Nicolas</td>
 			</tr>
 			<tr>
 				<td class="td_heures"> - </td>
-				<td rowspan="2" class="td_jeune"><b>Jeunes - 4<sup>ème</sup> groupe</b><br/>19h30 - 20h30<br/>Frédéric</td>
+				<td class="td_vide"></td>
+				<td class="td_vide"></td>
+				<td class="td_vide"></td>
+				<td class="td_vide"></td>
 			</tr>
 			<tr>
 				<td class="td_heures"> - 20H</td>
-				<td rowspan="5" class="td_vide"></td>
-				<td rowspan="5" class="td_competition"><b>Entrainement Adulte Compétition (libre)</b><br/>20h00 - 22h30</td>
+				<td rowspan="4" class="td_competition"><b>Elite adultes</b><br/>20h00 - 22h00</td>
+				<td rowspan="5" class="td_competition"><b>Compétition adultes</b><br/>20h00 - 22h30</td>
+				<td rowspan="4" class="td_loisir"><b>Loisirs</b><br/>20h00 - 22h00</td>
+				<td rowspan="4" class="td_competition"><b>Elite jeune / Compétition adultes</b><br/>20h00 - 22h00</td>
 			</tr>
 			<tr>
 				<td class="td_heures"> - </td>
-				<td rowspan="4" class="td_competition"><b>Entrainement Adulte Compétition</b><br/>Frédéric<br/>20h30 - 22h30</td>
-				<td rowspan="4" class="td_loisir"><b>Loisirs - 2<sup>ème</sup> groupe</b><br/>20h45 - 22h30<br/>Nicolas</td>
 			</tr>
 			<tr>
 				<td class="td_heures"> - 21H</td>
@@ -137,5 +155,10 @@
 			</tr>
 		</table>
 		<br/>
+		<ul>
+			<li>- Pour les groupes Jeunes, des réajustements par niveau pourront être effectués à chaque période de vacances scolaires.</li>
+			<li>- Des ateliers spécifiques ou de types de jeu seront proposés une fois par mois le vendredi (picots, défense …)</li>
+			<li>- Compte tenu des possibilités de la salle, les compétiteurs pourront venir s’entraîner en libre à partir de 18 h, et le samedi matin, sans gêner les cours dirigés.</li>
+		</ul>
 </div>
 	
