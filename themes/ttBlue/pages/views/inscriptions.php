@@ -13,21 +13,21 @@
 <div id="d_sous_menu">
 	<ul> 
         <li><i>Informations sur les inscriptions</i>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</li>
-        <li><a href="files/inscription 2014-2015.pdf" title="Fiche d'inscription à télécharger - fichier pdf" target="_blank">
+        <li><a href="files/inscription 2015-2016.pdf" title="Fiche d'inscription à télécharger - fichier pdf" target="_blank">
 			Fiche d'inscription à télécharger</a></li> 
     </ul> 
 </div>
 
 <div id="d_inscriptions">	
 	<br/>
-	<h2>INSCRIPTIONS ET INFORMATIONS 2014 / 2015</h2><br/>
+	<h2>INSCRIPTIONS ET INFORMATIONS 2015 / 2016</h2><br/>
 	<br/>
 	<p>
 	<div class="d_infos_importantes">
-		Nous avons le plaisir de vous informer que les inscriptions pour la saison 2014/2015 sont ouvertes.<br/>
+		Nous avons le plaisir de vous informer que les inscriptions pour la saison 2015/2016 sont ouvertes.<br/>
 	</div>
 	<br/><br/>
-	<b>Pour cette saison, nous vous proposons 2 choix de licences :</b><br/>
+	<b>Nous vous proposons 2 choix de licences :</b><br/>
 	<br/>
 	<table id="t_licence">
 		<thead>
@@ -35,44 +35,6 @@
 			<th class="td_tradi">1 - La Licence Traditionnelle<br/><span class="s_normal">( permet de participer à toutes les compétitions FFTT )</span></th>
 			<th class="td_promo">2 - La Licence Promotionnelle **<br/><span class="s_normal">( ne permet pas de participer aux compétitions FFTT )</span></th>
 		</thead>
-		<tr>
-			<td>Vétérans, Seniors</td>
-			<td>110 euros</td>
-			<td>79 euros</td>
-		</tr>
-		<tr>
-			<td>Juniors</td>
-			<td>102 euros</td>
-			<td>79 euros</td>
-		</tr>
-		<tr>
-			<td>Cadets, Minimes, Benjamins, Poussins</td>
-			<td>85 euros</td>
-			<td>63 euros</td>
-		</tr>
-	</table>
-	<br/>
-	<table id="t_criterium">
-		<tr>
-			<td class="td_criterium1"><u>Critérium Fédéral</u> :</td>
-			<td class="td_criterium2">- Vétérans, Séniors</td>
-			<td class="td_criterium3">46,35 euros</td>
-		</tr>
-		<tr>
-			<td class="td_criterium1"></td>
-			<td class="td_criterium2">- Juniors, Cadets</td>
-			<td class="td_criterium3">34,65 euros</td>
-		</tr>
-		<tr>
-			<td class="td_criterium1"></td>
-			<td class="td_criterium2">- Minimes</td>
-			<td class="td_criterium3">29,65 euros</td>
-		</tr>
-		<tr>
-			<td class="td_criterium1"></td>
-			<td class="td_criterium2">- Benjamins, Poussins</td>
-			<td class="td_criterium3">25,65 euros</td>
-		</tr>		
 	</table>
 	<br/>
 	<b><u>Pièces à fournir</u> :</b><br/>
