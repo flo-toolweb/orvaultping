@@ -23,9 +23,16 @@ include('include/class_fetes.php');
 		<meta name="Description" content="Orvault Sport Tennis de Table - Retrouvez l'actualit&eacute;, les r&eacute;sultats et bien d'autres informations sur le club"/>
 		<meta name="Subject" content="Tennis de table"/>
 		<meta name="Author" content="Florian Ab&eacute;lard"/>
-		<meta name="Language" content="français"/>
+		<meta name="Language" content="franÃ§ais"/>
 		<meta name="Revisit-After" content="7 days"/>
-		<meta name="Robot" content="index, follow"/>
+		<?php 
+		    if (TYPE_ENV == 'prod') {
+                echo '<meta name="Robots" content="index, follow"/>';
+            }
+            else {
+                echo '<meta name="Robots" content="noindex, nofollow"/>';
+            }
+        ?>
 		<title>Orvault Sport Tennis de Table - Accueil</title>
 		<link rel="stylesheet" type="text/css" href="<?php echo $oNavigation->dossier.'styles.css';?>"/>
 		<link href="./favicon.png" type="image/x-icon" rel="shortcut icon"/>
@@ -61,7 +68,7 @@ include('include/class_fetes.php');
 				<div id="d_header_gauche">
 					<div id="d_id">	
 						<div id="d_id_titre">	
-							<p>Identification TEST</p>
+							<p>Identification</p>
 						</div>
 							
 						<div id="d_id_contenu">	
@@ -89,7 +96,7 @@ include('include/class_fetes.php');
 				<div id="d_header_droite">
 					<div id="d_news">	
 						<div id="d_news_titre" class="arrondi">	
-							<p><a href="index.php?page=news" title="Acc&eacute;der &agrave; la page des actualités du club">
+							<p><a href="index.php?page=news" title="Acc&eacute;der &agrave; la page des actualitï¿½s du club">
 								Vie du club
 							</a></p>
 						</div>		
@@ -103,7 +110,7 @@ include('include/class_fetes.php');
 							<span class="s_news_titre"><?php echo $tNews1['news_titre']; ?></span>
 							<br/>
 							<?php
-								// On coupe les news si nécessaire
+								// On coupe les news si nï¿½cessaire
 								$oNews -> affNewsHome($tNews1['news_contenu']); 
 							?>
 								
@@ -187,7 +194,7 @@ include('include/class_fetes.php');
 						Le club
 					</a>
 					<img src="themes/ttBlue/home/img/img_btn_equipes.png" alt=""/>						
-					<a href="index.php?page=equipes" title="Page de présentation des équipes" class="a_boutons_int" id="a_equipes">
+					<a href="index.php?page=equipes" title="Page de prï¿½sentation des ï¿½quipes" class="a_boutons_int" id="a_equipes">
 						&Eacute;quipes
 					</a>
 					<img src="themes/ttBlue/home/img/img_btn_joueurs.png" alt=""/>
@@ -195,15 +202,15 @@ include('include/class_fetes.php');
 						Joueurs
 					</a>		
 					<img src="themes/ttBlue/home/img/img_btn_forum.png" alt=""/>
-					<a href="index.php?page=forum_liste" atitle="Le forum - Utilisateurs connectés uniquement" class="a_boutons_int" id="a_forum">	
+					<a href="index.php?page=forum_liste" atitle="Le forum - Utilisateurs connectï¿½s uniquement" class="a_boutons_int" id="a_forum">	
 						Forum
 					</a>		
 					<img src="themes/ttBlue/home/img/img_btn_photos.png" alt=""/>
-					<a href="index.php?page=medias" title="Les photos et les vidéos du club" class="a_boutons_int" id="a_medias">	
+					<a href="index.php?page=medias" title="Les photos et les vidï¿½os du club" class="a_boutons_int" id="a_medias">	
 						M&eacute;dias
 					</a>	
 					<img src="themes/ttBlue/home/img/img_btn_contacts.png" alt=""/>
-					<a href="index.php?page=contact-plan" title="Page des contacts et du plan d'accès" class="a_boutons_int" id="a_contacts">	
+					<a href="index.php?page=contact-plan" title="Page des contacts et du plan d'accï¿½s" class="a_boutons_int" id="a_contacts">	
 						Contacts/Plan
 					</a>	
 					<img src="themes/ttBlue/home/img/img_btn_partenaires.png" alt=""/>
@@ -251,12 +258,12 @@ include('include/class_fetes.php');
 						<span id="s_compte_a_rebours_secondes"></span>
 					</div>				
 					<div id="d_compte_a_rebours_texte">
-						Bientôt la nouvelle salle :-)
+						Bientï¿½t la nouvelle salle :-)
 					</div>				
 				</div>
 				-->
 				<span class="s_logos">
-					<a href="http://www.fftt.com" target="_blank" title="F&eacute;d&eacute;ration Française de Tennis de Table"><img src="themes/ttBlue/home/img/lien_FFTT.png" alt="Logo FFTT"/></a>
+					<a href="http://www.fftt.com" target="_blank" title="F&eacute;d&eacute;ration Franï¿½aise de Tennis de Table"><img src="themes/ttBlue/home/img/lien_FFTT.png" alt="Logo FFTT"/></a>
 				</span>
 				<span class="s_logos">
 					<a href="http://www.cdtt44.fr" target="_blank" title="Comit&eacute; de Tennis de Table de Loire-Atlantique"><img src="themes/ttBlue/home/img/lien_CDTT44.png" alt="Logo CDTT44"/></a>

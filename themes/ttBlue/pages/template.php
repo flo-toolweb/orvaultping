@@ -20,9 +20,18 @@
 		<meta name="Description" content="Orvault Sport Tennis de Table - Retrouvez l'actualit&eacute;, les r&eacute;sultats et bien d'autres informations sur le club"/>
 		<meta name="Subject" content="Tennis de table"/>
 		<meta name="Author" content="Florian Ab&eacute;lard"/>
-		<meta name="Language" content="français"/>
+		<meta name="Language" content="franÃ§ais"/>
 		<meta name="Revisit-After" content="7 days"/>
-		<meta name="Robot" content="index, follow"/>
+        <meta name="Robots" content="
+            <?php 
+                if (TYPE_ENV == 'prod') {
+                    echo 'index, follow';
+                }
+                else {
+                    echo 'noindex, nofollow';
+                }
+            ?>
+        "/>
 		<title>Orvault Sport Tennis de Table - <?php echo $oNavigation->page_vu; ?></title>
 		<link href="./favicon.ico" type="image/x-icon" rel="shortcut icon"/>
 		<link rel="stylesheet" type="text/css" href="<?php echo $oNavigation->dossier.'styles.css';?>"/>
@@ -103,8 +112,8 @@
 							</a>
 						</div>
 						<div class="d_menu_lien">
-							<img src="themes/ttBlue/pages/img/img_btn_equipes.png" alt="Image bouton équipes"/>		
-							<a href="index.php?page=equipes" title="Page de présentation des équipes" class="a_boutons_int" id="a_equipes">	
+							<img src="themes/ttBlue/pages/img/img_btn_equipes.png" alt="Image bouton ï¿½quipes"/>		
+							<a href="index.php?page=equipes" title="Page de prï¿½sentation des ï¿½quipes" class="a_boutons_int" id="a_equipes">	
 								&Eacute;quipes
 							</a>		
 						</div>
@@ -116,13 +125,13 @@
 						</div>
 						<div class="d_menu_lien">			
 							<img src="themes/ttBlue/pages/img/img_btn_forum.png" alt="Image bouton forum"/>
-							<a href="index.php?page=forum_liste" title="Forum - utilisateurs connectés uniquement" class="a_boutons_int" id="a_forum">	
+							<a href="index.php?page=forum_liste" title="Forum - utilisateurs connectï¿½s uniquement" class="a_boutons_int" id="a_forum">	
 								Forum
 							</a>
 						</div>
 						<div class="d_menu_lien">
 							<img src="themes/ttBlue/pages/img/img_btn_photos.png" alt="Image bouton m&eacute;dias"/>
-							<a href="index.php?page=medias" title="Les photos et les vidéos du club" class="a_boutons_int" id="a_photos">
+							<a href="index.php?page=medias" title="Les photos et les vidï¿½os du club" class="a_boutons_int" id="a_photos">
 								M&eacute;dias
 							</a>
 						</div>
@@ -134,7 +143,7 @@
 						</div>
 						<div class="d_menu_lien">
 							<img src="themes/ttBlue/pages/img/img_btn_contacts.png" alt="Image bouton contact"/>
-							<a href="index.php?page=contact-plan" title="Page des contacts et du plan d'accès" class="a_boutons_int" id="a_contacts">	
+							<a href="index.php?page=contact-plan" title="Page des contacts et du plan d'accï¿½s" class="a_boutons_int" id="a_contacts">	
 									Contacts
 							</a>	
 						</div>
@@ -168,7 +177,7 @@
 				</div>
 				<div id="d_footer_droite">
 					<span>
-						<a href="http://www.fftt.com" target="_blank" title="F&eacute;d&eacute;ration Française de Tennis de Table"><img src="themes/ttBlue/pages/img/lien_FFTT.png"/></a>
+						<a href="http://www.fftt.com" target="_blank" title="F&eacute;d&eacute;ration Franï¿½aise de Tennis de Table"><img src="themes/ttBlue/pages/img/lien_FFTT.png"/></a>
 					</span>
 					&nbsp;&nbsp;&nbsp;
 					<span class="s_logos">
