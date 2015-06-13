@@ -23,7 +23,7 @@ if (!defined('CONFIG') ) {
 	define("THEME","ttBlue");
 	// Connexion à la base de données
 	define("DB_HOST", "localhost");
-	define("DB_USER", "localhost");
+	define("DB_USER", "root");
 	define("DB_PASS", "");
 	define("DB_NAME", "orvaultp");	
 }

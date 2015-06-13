@@ -219,9 +219,6 @@ include('include/class_fetes.php');
 					</a>
 				</div>
 				<!-- Fin div menu-->
-				<div id="d_charlie">
-					<img src="themes/ttBlue/home/img/nous_sommes_tous_charlie.png" alt=""/>
-				</div>
 				<div id="d_ephemeride">
 					<span id="s_ephemeride_texte">
 						<?php
