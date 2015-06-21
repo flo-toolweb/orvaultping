@@ -11,7 +11,6 @@
 
 @session_start();
 
-//error_reporting(E_ALL);
 include('include/session.php');
 include('include/common.php');
 include('include/login_aff.php');
@@ -22,6 +21,15 @@ include('include/class_photos.php');
 include('include/class_photosCategory.php');
 include('include/class_photoWeek.php');
 include('include/class_users.php');
+    
+if (TYPE_ENV == 'prod') {
+    error_reporting(0);
+}
+else {
+    //error_reporting(E_ALL);
+    error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED);
+}
+
 
 // Recuperation de la page demandee
 $getPage = "adminHome";

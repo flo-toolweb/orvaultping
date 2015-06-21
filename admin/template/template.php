@@ -62,7 +62,7 @@
 						<!-- Super admin -->
 						<?php if (isSuperAdmin()) { ?>
 						<span class="s_boutons">
-							&#149; <a href="admin.php?page=adminMaj">Mise à jour</a>
+							&#149; <a href="admin.php?page=adminMaj">Mise Ã  jour</a>
 						</span>
 						<?php } ?>
 					</div>
@@ -82,7 +82,7 @@
 			
 			<div id="d_footer">
 				<span>
-					<a href="http://www.fftt.com" target="_blank" title="F&eacute;d&eacute;ration Française de Tennis de Table"><img src="themes/ttBlue/pages/img/lien_FFTT.png"/></a>
+					<a href="http://www.fftt.com" target="_blank" title="F&eacute;d&eacute;ration Franï¿½aise de Tennis de Table"><img src="themes/ttBlue/pages/img/lien_FFTT.png"/></a>
 				</span>
 				&nbsp;&nbsp;&nbsp;
 				<span class="s_logos">
