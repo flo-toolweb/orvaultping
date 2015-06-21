@@ -41,13 +41,23 @@ $listNews = $oNews->GetNewsList();
 <script type="text/javascript">
 tinymce.init({
     selector: "#id_contenu",
+    menu : { // this is the complete default configuration
+        file   : {title : 'File'  , items : 'newdocument'},
+        edit   : {title : 'Edit'  , items : 'undo redo | cut copy paste pastetext | selectall searchreplace'},
+        /*insert : {title : 'Insert', items : 'link media | template hr'},*/
+        /*view   : {title : 'View'  , items : 'visualaid'},*/
+        format : {title : 'Format', items : 'bold italic underline strikethrough superscript subscript | formats | removeformat'},
+        /*table  : {title : 'Table' , items : 'inserttable tableprops deletetable | cell row column'},*/
+        /*tools  : {title : 'Tools' , items : 'spellchecker code'}*/
+    },
     toolbar: [
-        "undo redo spellchecker | styleselect | bold italic | link image jbimages | alignleft aligncenter alignright alignjustify | bullist numlist | outdent indent"
+        "removeformat styleselect | bold italic | forecolor backcolor | alignleft aligncenter alignright alignjustify | bullist numlist | outdent indent",
+        "undo redo | image jbimages media | link  unlink | table | hr | spellchecker | code preview fullscreen"
     ],
     plugins: [
         "advlist autolink link image lists charmap preview hr anchor pagebreak spellchecker",
          "searchreplace visualblocks visualchars code fullscreen",
-         "save table contextmenu directionality emoticons paste textcolor jbimages"
+         "save table contextmenu emoticons paste textcolor jbimages"
    ],
     style_formats: [
         {title: 'Bold text', inline: 'b'},

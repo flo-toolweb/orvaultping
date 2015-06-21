@@ -276,7 +276,7 @@ class News
 					</div>
                     <div class="d_row">
 						<span class="">       
-							<textarea id="id_contenu" name="contenu" rows="5" cols="65"></textarea>
+							<textarea id="id_contenu" name="contenu" rows="12" cols="65"></textarea>
 						</span>
 					</div>
 					<div class="d_row">
