@@ -37,17 +37,17 @@ $listNews = $oNews->GetNewsList();
 	<!-- Fin div NewsList -->
 </div>
 
-<script src="//tinymce.cachefly.net/4.1/tinymce.min.js"></script>
+<script src="/js/lib/tinymce/tinymce.min.js"></script>
 <script type="text/javascript">
 tinymce.init({
     selector: "#id_contenu",
     toolbar: [
-        "undo redo spellchecker | styleselect | bold italic | link image | alignleft aligncenter alignright alignjustify | bullist numlist | outdent indent"
+        "undo redo spellchecker | styleselect | bold italic | link image jbimages | alignleft aligncenter alignright alignjustify | bullist numlist | outdent indent"
     ],
     plugins: [
         "advlist autolink link image lists charmap preview hr anchor pagebreak spellchecker",
          "searchreplace visualblocks visualchars code fullscreen",
-         "save table contextmenu directionality emoticons paste textcolor"
+         "save table contextmenu directionality emoticons paste textcolor jbimages"
    ],
     style_formats: [
         {title: 'Bold text', inline: 'b'},
