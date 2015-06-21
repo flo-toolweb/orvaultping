@@ -1,19 +1,16 @@
 
 div#d_haut{
 	position:relative;
-	height:270px;
 	padding-left:60px;
 	overflow:visible;
  }
  
 div#d_ajout{	
-	position:absolute;
 	width: 630px;
 	text-align:center;
  }
  
 div#d_modif{	
-	position:absolute;
 	width: 630px;
  }
  div#d_bas{	

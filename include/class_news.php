@@ -150,7 +150,7 @@ class News
 		
 		if ( strlen($contenu) > 130 ){
 			//decoupage d'une chaine en des morceaux de longueur donnee (130) sans couper les mots 
-			$tabs = explode('§',wordwrap($contenu, 130, '§'));
+			$tabs = explode('ï¿½',wordwrap($contenu, 130, 'ï¿½'));
 			$contenu = $tabs[0];
 			$this->newsIsCut = true;
 		}
@@ -178,7 +178,7 @@ class News
 		
 		if (FALSE === $this->newsIsCut ) { ?>
 			<span class="s_news_contenu">
-				<a href="index.php?page=news" title="Acc&eacute;der &agrave; la page des actualités du club">
+				<a href="index.php?page=news" title="Acc&eacute;der &agrave; la page des actualitï¿½s du club">
 						<?php echo $newsContenu; ?>
 				</a>
 			</span>
@@ -186,15 +186,15 @@ class News
 		}else{ 
 		?>
 			<span class="s_news_contenu">
-				<a href="index.php?page=news" title="Acc&eacute;der &agrave; la page des actualités du club">
+				<a href="index.php?page=news" title="Acc&eacute;der &agrave; la page des actualitï¿½s du club">
 						<?php echo $newsContenu; ?>
 				</a>
 			</span>
 			<?php if ( strlen($contenu) > 130 ) { ?>
 			<span class="s_newsSuite">
 				...
-				<a href="index.php?page=news" alt="Acc&eacute;der &agrave; la page des actualités du club"
-				title="Acc&eacute;der &agrave; la page des actualités du club">
+				<a href="index.php?page=news" alt="Acc&eacute;der &agrave; la page des actualitï¿½s du club"
+				title="Acc&eacute;der &agrave; la page des actualitï¿½s du club">
 				lire la suite
 				</a>
 			</span>
@@ -266,27 +266,19 @@ class News
 						<span class="c_form_droite">      
 							<input type="text" id="id_titre" name="titre" size="50">
 						</span>
-					</div>			
-					<div class="d_row">
-						<span class="c_form_gauche">
-							Mise en forme :
-						</span>
-						<span class="c_form_droite">  						
-							<input type="button" class="mise_en_forme" id="btn_bold"  name="bold" size="0" value="Gras" onClick="addBalises('id_contenu','bold')"/>
-							<input type="button" class="mise_en_forme" id="btn_italic" name="italic" size="0" value="Italique" onClick="addBalises('id_contenu','italic')"/>						
-							<input type="button" class="mise_en_forme" id="btn_link" name="link" size="0" value="Lien" onClick="addLink('id_contenu')"/>
-						</span>
-					</div>
+					</div>	
 					<div class="d_row">
 						<span class="c_form_gauche">
 							<label for="id_contenu">
 								Contenu :
 							</label>
 						</span>
-						<span class="c_form_droite">       
+					</div>
+                    <div class="d_row">
+						<span class="">       
 							<textarea id="id_contenu" name="contenu" rows="5" cols="65"></textarea>
 						</span>
-						</div>
+					</div>
 					<div class="d_row">
 						<input type="hidden" id="id_prenom" name="prenom" value="<?php echo $_SESSION['user_prenom']; ?>">
 						<input type="reset" id="id_reset"  size="" value="Annuler"> 
@@ -309,8 +301,8 @@ class News
 		$expr_reg = '/\[b\](.*)\[\/b\]/i';
 		$texte = preg_replace_callback($expr_reg,
 	        create_function(
-	            // Les guillemets simples sont très importants ici
-	            // ou bien il faut protéger les caractères $ avec \$
+	            // Les guillemets simples sont trï¿½s importants ici
+	            // ou bien il faut protï¿½ger les caractï¿½res $ avec \$
 	            '$matches',
 	            'return "<span class=\"s_bold\">$matches[1]</span>";'
 	         ),
