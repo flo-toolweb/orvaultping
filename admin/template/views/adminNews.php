@@ -41,6 +41,7 @@ $listNews = $oNews->GetNewsList();
 <script type="text/javascript">
 tinymce.init({
     selector: "#id_contenu",
+    language : 'fr_FR',
     menu : { // this is the complete default configuration
         file   : {title : 'File'  , items : 'newdocument'},
         edit   : {title : 'Edit'  , items : 'undo redo | cut copy paste pastetext | selectall searchreplace'},
