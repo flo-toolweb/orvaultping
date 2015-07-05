@@ -38,11 +38,12 @@
 		<?php
 			if ( substr($oNavigation->page_vu, 0, 5) === "forum" ) { ?>
 				<link rel="stylesheet" type="text/css" href="<?php echo $oNavigation->dossier.'forum.css';?>"/>
-			<?php
+		<?php
 			} else {
 		?>
 			<link rel="stylesheet" type="text/css" href="<?php echo $oNavigation->dossier.$oNavigation->page_vu.'.css';?>"/>
 		<?php } ?>
+        <link rel="stylesheet" type="text/css" href="<?php echo $oNavigation->dossier.'wysiwyg.css';?>"/>
 		<script type="text/javascript" src="./js/include/login.js"></script>
 		<script type="text/javascript" src="./js/include/template.js"></script>
 		<script type="text/javascript" src="./js/lib/prototype.js"></script>
@@ -135,12 +136,14 @@
 								M&eacute;dias
 							</a>
 						</div>
+						<!--
 						<div class="d_menu_lien">
 							<img src="themes/ttBlue/pages/img/img_btn_news.png" alt="Image bouton vie du club"/>
 							<a href="index.php?page=news" title="Page des news" class="a_boutons_int" id="a_news">
 								Vie du club
 							</a>
 						</div>
+						-->
 						<div class="d_menu_lien">
 							<img src="themes/ttBlue/pages/img/img_btn_contacts.png" alt="Image bouton contact"/>
 							<a href="index.php?page=contact-plan" title="Page des contacts et du plan d'acc�s" class="a_boutons_int" id="a_contacts">	

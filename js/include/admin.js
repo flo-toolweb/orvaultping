@@ -20,9 +20,11 @@ function centrage_popup(page,largeur,hauteur,options){
 */
 
 // Appel Ajax apres l'ajout d'une news par l'utilisateur
-function addNews() { 
-	var titre = document.getElementById("id_titre").value;
-	var contenu = document.getElementById("id_contenu").value;
+function addNews() {
+	tinyMCE.triggerSave(true, true);
+	
+	var titre = document.getElementById("id_titre").value;	
+	var contenu = document.getElementById("id_contenu").value;	
 	var prenom = document.getElementById("id_prenom").value;
 	
 	document.getElementById("id_titre").value = "";
@@ -32,46 +34,44 @@ function addNews() {
 		encoding: 'iso-8859-1',
 		evalScripts: true,
 		method: "post",
-	parameters: {titre: titre, contenu: contenu, prenom: prenom, TypeReq: 'add'}
+		parameters: {titre: titre, contenu: contenu, prenom: prenom, TypeReq: 'add'}
 	} 
 	var ajaxCall = new Ajax.Updater("d_list", "./admin/include/news-trt.php", options); 
 }
 
 // Appel Ajax pour afficher la news a modifier
-function affNewsModif(id_news) { 
-	// On cache l'ajout des news
-	document.getElementById("d_ajout").style.visibility = 'hidden';
-	document.getElementById("d_modif").style.visibility = 'visible';
-	
-	var options = { 
+function affNewsModif(id_news) {
+	tinymce.remove();
+	var options = {
 		encoding: 'iso-8859-1',
 		evalScripts: true,
 		method: "post",
-	parameters: {id_news: id_news, TypeReq: 'affModif'}
-	} 
-	var ajaxCall = new Ajax.Updater("d_modif", "./admin/include/news-trt.php", options); 
+		parameters: {id_news: id_news, TypeReq: 'affModif'},
+		onComplete: function() {
+   			initWysiwyg('id_contenu');
+		}
+	}
+	var ajaxCall = new Ajax.Updater("d_formulaires", "./admin/include/news-trt.php", options);
 }
 
 function modifNews(id_news) { 
-	
-	document.getElementById("d_modif").style.visibility = 'hidden';
-	document.getElementById("id_titre").value = "";
-	document.getElementById("id_contenu").value = "";
-	document.getElementById("d_ajout").style.visibility = 'visible';
 
 	if ( id_news != -1 ) {
-		var id_news = id_news;
-		var titre = document.getElementById("id_titreModif").value;
-		var contenu = document.getElementById("id_contenuModif").value;
+		tinyMCE.triggerSave(true, true);
 		
+		var id_news = id_news;
+		var titre = document.getElementById("id_titre").value;
+		var contenu = document.getElementById("id_contenu").value;
+		console.log('titre ' + titre);
+		console.log('contenu ' + contenu);
 		var options = { 
 			encoding: 'iso-8859-1',
 			evalScripts: true,
 			method: "post",
-		parameters: {id_news: id_news, titre: titre, contenu: contenu, TypeReq: 'modif'}
+			parameters: {id_news: id_news, titre: titre, contenu: contenu, TypeReq: 'modif'}
 		} 
 		var ajaxCall = new Ajax.Updater("d_list", "./admin/include/news-trt.php", options); 
-		}
+	}
 }
 
 function supprNews(id_news) { 
@@ -241,7 +241,7 @@ function addPhotoWeek() {
 }
 
 /* 
- *** Gestion des catégories des photos ***
+ *** Gestion des catï¿½gories des photos ***
 */
 
 // Appel Ajax apres l'ajout d'une news par l'utilisateur
@@ -300,7 +300,7 @@ function modifCategory(id_category) {
 
 function supprCategory(id) { 
 	
-	if (window.confirm("Voulez vous supprimer cette catégorie et toutes les photos qu'elle contient?")) {
+	if (window.confirm("Voulez vous supprimer cette catï¿½gorie et toutes les photos qu'elle contient?")) {
 		
 		var id = id;
 

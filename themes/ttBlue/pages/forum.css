@@ -423,6 +423,9 @@ div#d_message_ext{
 	margin-top:6px;
 	overflow: visible;
 }
+div#d_message_ext textarea{
+	margin-bottom:6px;
+}
 div#d_message{
 	position:relative;
 	float:left;

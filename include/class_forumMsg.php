@@ -584,7 +584,7 @@ class ForumMsg
 					</div>
 					<div id="d_message_ext">
 						<div id="d_message">
-							<textarea  id="id_msg" name="msg" cols="67" rows="11"></textarea>
+							<textarea  id="id_msg" name="msg" cols="60" rows="11"></textarea>
 						</div>
 						<div id="d_smiley">
 							<br/>
@@ -670,7 +670,7 @@ class ForumMsg
 					</div>
 					<div id="d_message_ext">
 						<div id="d_message">
-							<textarea  id="id_msg" name="msg" cols="67" rows="11"><?php echo $tMsg['forumMsg_contenu']; ?></textarea>
+							<textarea  id="id_msg" name="msg" cols="60" rows="11"><?php echo $tMsg['forumMsg_contenu']; ?></textarea>
 						</div>
 						<div id="d_smiley">
 							<br/>
@@ -711,7 +711,7 @@ class ForumMsg
 	* Affiche le sujet de la discussion et ses reponses
 	*
 	* @param integer $msg_id du sujet 
-	* @param integer $user_id de l'usilisateur connecté
+	* @param integer $user_id de l'usilisateur connectï¿½
 	* @param integer $id du forum // a implementer plus tard
 	* @return void
 	*/
@@ -900,7 +900,7 @@ class ForumMsg
 	* Affiche le sujet
 	*
 	* @param integer $msg_id du sujet 
-	* @param integer $user_id  //  id de l'utilisateur connecté
+	* @param integer $user_id  //  id de l'utilisateur connectï¿½
 	* @param integer $id du forum // a implementer plus tard
 	* @return void
 	*/
@@ -967,7 +967,7 @@ class ForumMsg
 						?>
 							<span id="s_msg_edit">
 								<a class="a_edit" href="index.php?page=forum_edit_msg&id_msg=<?php echo $msg_id; ?>&" title="Editer ce message">
-									<img src="./themes/ttBlue/pages/img/spacer.gif"/>&nbsp;&nbsp;
+									Editer
 								</a>
 							</span>
 						<?php 
@@ -994,8 +994,8 @@ class ForumMsg
 		$expr_reg = '/\[b\](.*)\[\/b\]/i';
 		$texte = preg_replace_callback($expr_reg,
 	        create_function(
-	            // Les guillemets simples sont très importants ici
-	            // ou bien il faut protéger les caractères $ avec \$
+	            // Les guillemets simples sont trï¿½s importants ici
+	            // ou bien il faut protï¿½ger les caractï¿½res $ avec \$
 	            '$matches',
 	            'return "<span class=\"s_bold\">$matches[1]</span>";'
 	         ),

@@ -19,7 +19,7 @@ if (!defined('NAVIGATION') ) {
 	{
 		var $pages = array("home"=>"Accueil","bureau"=>"Bureau","calendrier"=>"Calendrier du Club","contact-plan"=>"Contact - Plan",
 						"equipes"=>"Equipes","joueurs"=>"Joueurs","joueurs_top5"=>"Joueurs","joueurs_fiche"=>"Joueurs",
-						"le_club"=>"Le Club","liens_utiles"=>"Liens Utiles","inscriptions"=>"Inscriptions","news"=>"Vie du club","medias"=>"Médias","partenaires"=>"Partenaires",
+						"le_club"=>"Le Club","liens_utiles"=>"Liens Utiles","inscriptions"=>"Inscriptions","news"=>"Accueil","medias"=>"Mï¿½dias","partenaires"=>"Partenaires",
 						"forum"=>"Forum V 1.3", "forum_msg"=>"Forum V 1.3", "forum_new_msg"=>"Forum V 1.3",
 						"forum_liste"=>"Forum","forum_edit_msg"=>"Forum","forum_edit_rep"=>"Forum",
 						"perso"=>"Espace perso","password"=>"Mot de passe");
@@ -28,7 +28,7 @@ if (!defined('NAVIGATION') ) {
 						"forum_liste"=>"Forum V 1.3","forum_edit_msg"=>"Forum V 1.3","forum_edit_rep"=>"Forum V 1.3");
 		var $pages_admin = array("adminHome"=>"Espace admin","adminNews"=>"Vie du club","adminPhotos"=>"Photos",
 								"adminPhotosCat"=>"Photos","adminPhotoWeek"=>"Photos de la semaine",
-								"adminMaj"=>"Mise à jour");
+								"adminMaj"=>"Mise ï¿½ jour");
 		var $page_vu;
 		var $theme;
 		var $typePage;
@@ -37,7 +37,7 @@ if (!defined('NAVIGATION') ) {
 		var $description;
 		var $keywords;
 		
-		function Navigation($theme,$page="home",$type)
+		function Navigation($theme,$page="news",$type)
 		{
 			
 			$this -> theme = $theme;
@@ -47,8 +47,8 @@ if (!defined('NAVIGATION') ) {
 					$this -> typePage = "admin";
 					$page = "adminHome";
 				}else{
-					$this -> typePage = "home"; 
-					$page = "home";
+					$this -> typePage = "home";
+					$page = "news";
 				}
 			}
 			
@@ -73,11 +73,13 @@ if (!defined('NAVIGATION') ) {
 					}
 				}
 				if ( $page != 'home' ) {
-					$this -> dossier = CHEMIN.'/themes/'.$theme.'/pages/';
-					$this -> typePage = "pages"; 
+					$this->dossier = CHEMIN.'/themes/'.$theme.'/pages/';
+					$this->typePage = "pages"; 
 				}else{
-					$this -> dossier = CHEMIN.'/themes/'.$theme.'/home/';
-					$this -> typePage = "home"; 
+					//$this->dossier = CHEMIN.'/themes/'.$theme.'/home/';
+					//$this->typePage = "home"; 
+                    $this->dossier = CHEMIN.'/themes/'.$theme.'/pages/';
+                    $this->typePage = "pages"; 
 				}
 				
 			}

@@ -61,7 +61,7 @@ div.d_news_footer{
 	clear: both;
 }
 span.s_news_date{
-	float: left;
+	float: right;
 	width: 150px;
 	text-align: left;
 	margin-left: 18px;

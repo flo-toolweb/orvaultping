@@ -233,7 +233,7 @@ class ForumRep
 					</div>
 					<div id="d_message_ext">
 						<div id="d_message">
-							<textarea  id="id_msg" name="msg" cols="67" rows="11"></textarea>
+							<textarea  id="id_msg" name="msg" cols="60" rows="11"></textarea>
 						</div>
 						<div id="d_smiley">
 							<br/>
@@ -305,7 +305,7 @@ class ForumRep
 					</div>
 					<div id="d_message_ext">
 						<div id="d_message">
-							<textarea  id="id_msg" name="msg" cols="67" rows="11"><?php echo $contenu; ?></textarea>
+							<textarea  id="id_msg" name="msg" cols="60" rows="11"><?php echo $contenu; ?></textarea>
 						</div>
 						<div id="d_smiley">
 							<br/>

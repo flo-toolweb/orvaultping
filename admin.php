@@ -8,20 +8,13 @@
 #
 # ***** ORVAULT SPORT TENNIS DE TABLE *****
 # =========================================
+ 
 
 @session_start();
 
 include('include/session.php');
 include('include/common.php');
-include('include/login_aff.php');
-include('include/class_maj.php');
-include('include/class_navigation.php');
-include('include/class_news.php');
-include('include/class_photos.php');
-include('include/class_photosCategory.php');
-include('include/class_photoWeek.php');
-include('include/class_users.php');
-    
+   
 if (TYPE_ENV == 'prod') {
     error_reporting(0);
 }
@@ -30,6 +23,14 @@ else {
     error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED);
 }
 
+include('include/login_aff.php');
+include('include/class_maj.php');
+include('include/class_navigation.php');
+include('include/class_news.php');
+include('include/class_photos.php');
+include('include/class_photosCategory.php');
+include('include/class_photoWeek.php');
+include('include/class_users.php');
 
 // Recuperation de la page demandee
 $getPage = "adminHome";

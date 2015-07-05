@@ -15,18 +15,26 @@ if ( !defined('COMMON') ) {
 	if (!defined('CONFIG') ) {
 		include('config/config.php');
 	}
-	
+    
+    if (TYPE_ENV == 'prod') {
+        error_reporting(0);
+    }
+    else {
+        //error_reporting(E_ALL);
+        error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED);
+    }
+     	
 	function toDateTimeFr($datetime) {
 		// le datetime est de format "0000:00:00 00:00:00"
 
-	    // séparation date et heure avec pour référence " "
+	    // sï¿½paration date et heure avec pour rï¿½fï¿½rence " "
 	    list($date, $time) = explode(" ", $datetime);
-	    // séparation année, mois et jour avec pour référence "-"
+	    // sï¿½paration annï¿½e, mois et jour avec pour rï¿½fï¿½rence "-"
 	    list($year, $month, $day) = explode("-", $date);
-		// séparation heure, minute, seconde avec pour référence "-"
+		// sï¿½paration heure, minute, seconde avec pour rï¿½fï¿½rence "-"
 		list($h, $mn, $s) = explode(":", $time);
 
-	    // la date est réadapté au format français
+	    // la date est rï¿½adaptï¿½ au format franï¿½ais
 	    $tDate['date'] = $day."/".$month."/".$year;
 		$tDate['heure'] = $h."h".$mn;
 
@@ -35,10 +43,10 @@ if ( !defined('COMMON') ) {
 	function toDateFr($date) {
 		// le date est de format "0000-00-00"
 
-	    // séparation année, mois et jour avec pour référence "-"
+	    // sï¿½paration annï¿½e, mois et jour avec pour rï¿½fï¿½rence "-"
 	    list($year, $month, $day) = explode("-", $date);
 
-	    // la date est réadapté au format français
+	    // la date est rï¿½adaptï¿½ au format franï¿½ais
 	    $newDate = $day."/".$month."/".$year;
 
 	     return $newDate; // renvoi de la nouvelle date
@@ -64,17 +72,17 @@ if ( !defined('COMMON') ) {
 		$month = date("F");
 		
 		$aMonth["January"] = "Janvier";
-		$aMonth["February"] = "Février";
+		$aMonth["February"] = "Fï¿½vrier";
 		$aMonth["March"] = "Mars";
 		$aMonth["April"] = "Avril";
 		$aMonth["May"] = "Mai";
 		$aMonth["June"] = "Juin";
 		$aMonth["July"] = "Juillet";
-		$aMonth["August"] = "Août";
+		$aMonth["August"] = "Aoï¿½t";
 		$aMonth["September"] = "Septembre";
 		$aMonth["October"] = "Octobre";
 		$aMonth["November"] = "Novembre";
-		$aMonth["December"] = "Décembre";
+		$aMonth["December"] = "Dï¿½cembre";
 				
 		$month_fr = $aMonth[$month];
 
@@ -97,23 +105,23 @@ if ( !defined('COMMON') ) {
 	}
 	
 	function generatePWD() {
-		// Ensemble des caractères utilisés pour le créer
+		// Ensemble des caractï¿½res utilisï¿½s pour le crï¿½er
 		$chars="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 		// Combien on en a mis au fait ?
 		$wlong=strlen($chars);
-		// Au départ, il est vide ce mot de passe ;)
+		// Au dï¿½part, il est vide ce mot de passe ;)
 		$wpas="";
-		// Combien on veut de caractères pour ce mot de passe ?
+		// Combien on veut de caractï¿½res pour ce mot de passe ?
 		$taille=6;
-		// On initialise la fonction aléatoire
+		// On initialise la fonction alï¿½atoire
 		srand((double)microtime()*1000000);
-		// On boucle sur le nombre de caractères voulus
+		// On boucle sur le nombre de caractï¿½res voulus
 		for($i=0;$i<$taille;$i++){
-		// Tirage aléatoire d'une valeur entre 1 et wlong
+		// Tirage alï¿½atoire d'une valeur entre 1 et wlong
 		      $wpos=rand(0,$wlong-1);
-		// On cumule le caractère dans le mot de passe
+		// On cumule le caractï¿½re dans le mot de passe
 		      $wpas=$wpas.substr($chars,$wpos,1);
-		// On continue avec le caractère suivant à générer      
+		// On continue avec le caractï¿½re suivant ï¿½ gï¿½nï¿½rer      
 		}
 		// On affiche le mot de passe (on peut le stocker quelque part...)
 		return $wpas;

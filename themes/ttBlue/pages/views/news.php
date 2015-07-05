@@ -36,7 +36,7 @@ $tNews = $oNews->GetNewsList()
 					<div class="d_news_footer">		
 						<?php $tDate = toDateTimeFr($tNews[$cle]['news_date']); ?>
 						<span class="s_news_date">le <?php echo $tDate['date']; ?>&nbsp;&nbsp;&agrave; <?php echo $tDate['heure']; ?></span>							
-						<span class="s_news_auteur">par <?php echo $tNews[$cle]['news_auteur']; ?></span>
+						<!--<span class="s_news_auteur">par <?php echo $tNews[$cle]['news_auteur']; ?></span>-->
 					</div>
 				</div>
 			</div>

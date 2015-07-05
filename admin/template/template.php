@@ -19,6 +19,8 @@
 		<script type="text/javascript" src="./js/lib/prototype.js"></script>
 		<script type="text/javascript" src="./js/include/login.js"></script>
 		<script type="text/javascript" src="./js/include/admin.js"></script>
+        <script src="/js/lib/tinymce/tinymce.min.js"></script> 
+        <script type="text/javascript" src="./js/include/wysiwyg.js"></script>
 	</head>
 	
 	<body>
@@ -62,7 +64,7 @@
 						<!-- Super admin -->
 						<?php if (isSuperAdmin()) { ?>
 						<span class="s_boutons">
-							&#149; <a href="admin.php?page=adminMaj">Mise à jour</a>
+							&#149; <a href="admin.php?page=adminMaj">Mise &agrave; jour</a>
 						</span>
 						<?php } ?>
 					</div>

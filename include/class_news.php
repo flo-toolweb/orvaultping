@@ -251,12 +251,25 @@ class News
 		<?php
 		}
 	}
-		function affAjoutNews()
+	function affFormNews($formType, $newsInfos = array())
 	{
+	    $formId = 'form_ajoutNews';
+        $formLabel = 'Ajouter une actualit&eacute;';
+        $newsTitre = '';
+        $newsContenu = '';
+        $formSubmitFunction = 'addNews()';
+        
+        if ($formType == 'edit') {
+            $formId = 'form_modifNews';
+            $formLabel = 'Modifier une actualit&eacute;';
+            $newsTitre = stripSlashes($newsInfos['news_titre']);
+            $newsContenu = stripSlashes($newsInfos['news_contenu']);
+            $formSubmitFunction = 'modifNews(' . $newsInfos['news_id'] . ')';
+        }
 	?>
-			<form id="form_ajoutNews" name="form_ajoutNews" action="#" method="post">
+			<form id="<?php echo $formId; ?>" name="<?php echo $formId; ?>" action="#" method="post">
 				<fieldset>
-					<legend>&nbsp;Ajouter une News&nbsp;</legend>
+					<legend>&nbsp;<?php echo $formLabel; ?>&nbsp;</legend>
 					<div class="d_row">
 						<span class="c_form_gauche">
 							<label for="id_titre">
@@ -264,7 +277,7 @@ class News
 							</label>
 						</span>
 						<span class="c_form_droite">      
-							<input type="text" id="id_titre" name="titre" size="50">
+							<input type="text" id="id_titre" name="titre" size="50" value="<?php if (!empty($newsTitre)) echo $newsTitre; ?>">
 						</span>
 					</div>	
 					<div class="d_row">
@@ -276,13 +289,13 @@ class News
 					</div>
                     <div class="d_row">
 						<span class="">       
-							<textarea id="id_contenu" name="contenu" rows="12" cols="65"></textarea>
+							<textarea id="id_contenu" name="contenu" rows="12" cols="65"><?php if (!empty($newsContenu)) echo $newsContenu; ?></textarea>
 						</span>
 					</div>
 					<div class="d_row">
 						<input type="hidden" id="id_prenom" name="prenom" value="<?php echo $_SESSION['user_prenom']; ?>">
 						<input type="reset" id="id_reset"  size="" value="Annuler"> 
-						<input type="button" id="id_submit" onClick="addNews()" size="" value="Valider"> 
+						<input type="button" id="id_submit" onClick=" <?php echo $formSubmitFunction; ?>" size="" value="Valider"> 
 					</div>
 		        </fieldset>
 			</form>
