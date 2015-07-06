@@ -3,6 +3,7 @@ config/config.php
 # Documents numériques
 files/*
 !files/cr
+!files/news
 # Images
 photos/*
 !photos/bureau
