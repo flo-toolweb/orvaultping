@@ -489,7 +489,7 @@
 				<td class="td_progression">+160</td>
 			</tr>
 			<tr class="tr_row">
-				<td class="td_joueur">3.&nbsp;&nbsp;&nbsp;Marco Meignan
+				<td class="td_joueur">3.&nbsp;&nbsp;&nbsp;Marco Meingan
 					&nbsp;
 					<a class="a_medaille">
 					<img src="./themes/ttBlue/pages/img/top5_bronze_petit.png"
