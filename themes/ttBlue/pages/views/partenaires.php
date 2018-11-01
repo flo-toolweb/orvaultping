@@ -18,6 +18,18 @@
 	<br/>
 	<div class="d_row">
 		<span class="s_row_left">
+			<a href="https://www.creditmutuel.fr" title="Crédit Mutuel" target="_blank">
+			<img  src="themes/ttBlue/pages/img/partenaire_credit_mutuel_mini.jpg" alt="Crédit Mutuel" title="Crédit Mutuel"/>
+			</a>
+		</span>
+		<span class="s_row_right">
+			<a href="themes/ttBlue/pages/img/partenaire_aveo.jpg" title="Avéo" target="_blank">
+			<img src="themes/ttBlue/pages/img/partenaire_aveo_mini.jpg" alt="Avéo" title="Avéo"/>
+			</a>
+		</span>
+  </div>
+	<div class="d_row">
+		<span class="s_row_left">
 			<a href="themes/ttBlue/pages/img/partenaire_gpaa.jpg" title="Gaëlle Péneau architecte associés" target="_blank">
 			<img  src="themes/ttBlue/pages/img/partenaire_gpaa_mini.jpg" alt="Gaëlle Péneau architecte associés" title="Gaëlle Péneau architecte associés"/>
 			</a>
@@ -63,9 +75,5 @@
 			<img src="themes/ttBlue/pages/img/partenaire_lhermine_mini.jpg" alt="L'Hermine - Auto école" title="L'Hermine - Auto école"/>
 			</a>
 		</span>
-	</div>
-	<div class="d_row">
-			<a href="http://www.hardis.fr" title="Groupe Hardis" target="_blank">
-		<img src="themes/ttBlue/pages/img/partenaire_hardis_mini.png" alt="Groupe Hardis" title="Groupe Hardis"/>
 	</div>
 </div>	

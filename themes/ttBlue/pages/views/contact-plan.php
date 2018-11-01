@@ -15,8 +15,8 @@
 	<br/>
 	<h2>Pour plus de renseignements :</h2>
 	<div class="d_contact_gauche">
-	<b>Nicolas Cousin</b></li>
-		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#149; 06.89.62.17.43</p>
+	<b>Claude Diguet</b></li>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#149; 06.74.94.69.34</p>
 		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#149; secretaire@orvaultping.com</p>
 	</div>
 	<div class="d_contact_droite">
@@ -28,7 +28,7 @@
 	<br/>
 	<h2>Lieu des rencontres sportives :</h2>
 	<div class="d_contact_gauche">
-		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Salle polyvalente Roger Picaud <br/>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Salle Germain Tilagone <br/>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;108 rue Claude Antoine Peccot <br/>
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;44700 ORVAULT <p/><br/>
 	</div>

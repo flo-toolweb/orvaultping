@@ -11,7 +11,7 @@
 
 @session_start();
 
-error_reporting(E_ERROR | E_WARNING | E_PARSE);
+//error_reporting(E_ALL);
 include('include/session.php');
 include('include/common.php');
 include('include/login_aff.php');
@@ -30,5 +30,8 @@ if ( isset($_GET['page']) ) {
 $oNavigation = new Navigation(THEME,$getPage,"users");
 $typePage = $oNavigation -> getTypePage();
 include($theme.$typePage.'/template.php');
+
+?>
+<?
 
 ?>

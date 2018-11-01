@@ -51,11 +51,11 @@ div#d_header_gauche{
 	position:relative;
 	float:left;
 	text-align:left;
-	margin-left:25px;	
+	margin-left:25px;
 	width:425px;
 	overflow:hidden;
  }
- 
+
  /* ___ INSCRIPTIONS ___ */
 
 div#d_inscription {
@@ -73,11 +73,63 @@ a#a_inscription img {
 }
 a#a_inscription:hover img {
 	background: url(img/btn_inscription_on.png) top left no-repeat;
-} 
+}
+
  /* ___ FIN INSCRIPTIONS ___ */
- 
+
+ /* ___ CRITERIUM ___ */
+
+div#d_criterium {
+	width:400px;
+	margin-top:30px;
+}
+div#d_criterium img {
+	width:400px;
+	height:266px;
+}
+
+ /* ___ FIN CRITERIUM ___ */
+
+ /* ___ TOURNOI ___ */
+
+div#d_tournoi {
+	width:400px;
+	height:241px;
+	margin-top:60px;
+	text-align:right;
+}
+div#d_tournoi img {
+	width:321px;
+	height:241px;
+}
+a#a_tournoi img {
+	background:url(img/btn_tournoi.png) left top no-repeat ;
+} /* ___ FIN TOURNOI ___ */
+
+ /* ___ BABY PING ___ */
+
+div#d_babyping {
+	width:400px;
+	height:241px;
+	margin-top:60px;
+	text-align:right;
+}
+div#d_babyping img {
+	width:321px;
+	height:241px;
+}
+a#a_babyping img {
+	background:url(img/btn_babyping.png) left top no-repeat ;
+} /* ___ FIN BABY PING ___ */
+ /* ___ MUTATION ___ */
+
+div#d_mutation {
+    margin-top: 153px;
+    margin-left: 110px;
+}
+ /* ___ FIN MUTATION ___ */
  /* IDENTIFICATION */
- 
+
 div#d_id{
 	overflow:visible;
 }
@@ -130,25 +182,25 @@ div#d_id_connec{
 	-webkit-border-bottom-right-radius: 7px;
 }
 div#d_id_connec input[type=hidden] {
-	display:none;	
+	display:none;
 }
 div#d_id_connec p{
 	font-size: 0.85em;
-	font-weight: bold;	
-	color:green;	
+	font-weight: bold;
+	color:green;
 }
 div#d_menuAdmin{
 	padding-top:4px;
 	padding-bottom:4px;
 	line-height:15px;
-}	
+}
 div#d_menuAdmin a{
-	text-decoration:none; 
+	text-decoration:none;
 }
 span.s_menuAdminEx a{
 	padding-left: 5px;
 	padding-right: 5px;
-	background-color: #FF9900;	
+	background-color: #FF9900;
 	border: 1px solid #03638A;
 	font-size: 0.9em;
 }
@@ -158,8 +210,8 @@ span.s_menuAdminEx a:hover{
 span.s_menuAdmin{
 	padding-left: 6px;
 	padding-right: 6px;
-	font-weight: bold;	
-	color:black;	
+	font-weight: bold;
+	color:black;
 	text-decoration:none;
 }
 div#d_deco {
@@ -167,7 +219,7 @@ div#d_deco {
 }
 div#d_deco a{
 	font-size: 0.85em;
-	font-weight: bold;	
+	font-weight: bold;
 	line-height:15px;
 	color: #CC0033;
 	text-decoration:underline;
@@ -184,7 +236,7 @@ div#d_id input{
 	background-color:#FF9900;
 }
 div#d_id input:focus{
-	background-color:#FFCC66;	
+	background-color:#FFCC66;
 }
 div#d_id_input input{
 	margin-top:6px;
@@ -193,7 +245,7 @@ div#d_id_input input{
 	height:17px;
 }
 div#d_id_valid{
-	margin-top:10px;	
+	margin-top:10px;
 }
 div#d_id_valid input{
 	height:17px;
@@ -222,8 +274,8 @@ div#d_connec_ok{
 	-webkit-border-bottom-right-radius: 7px;
 }
 div#d_connec_ok p{
-	font-weight: bold;	
-	color: #006600;	
+	font-weight: bold;
+	color: #006600;
 }
 div#d_deco_ok{
 	width:230px;
@@ -242,7 +294,7 @@ div#d_deco_ok{
 	-webkit-border-bottom-right-radius: 7px;
 }
 div#d_deco_ok p{
-	font-weight: bold;	
+	font-weight: bold;
 	color: #8B0000;
 }
 div#d_connec_error{
@@ -262,11 +314,11 @@ div#d_connec_error{
 	-webkit-border-bottom-right-radius: 7px;
 }
 div#d_connec_error p{
-	font-weight: bold;	
+	font-weight: bold;
 	color: #8B0000;
 }
  /* FIN IDENTIFICATION */
- 
+
 /* ERREUR */
 div#d_erreur{
 	height:20px;
@@ -279,14 +331,14 @@ span#s_erreur{
 	padding:2px;
 	font-family: arial, sans-serif;
 	font-size: 0.85em;
-	font-weight: bold;	
+	font-weight: bold;
 	border: 1px solid #8B0000;
 	background-color: #FFC0CB;
 }
 
 /* FIN ERREUR */
 
-div#d_header_droite{	
+div#d_header_droite{
 	position:relative;
 	text-align:left;
 	width:500px;
@@ -295,9 +347,9 @@ div#d_header_droite{
 	margin-right:10px;
 	overflow:visible;
  }
- 
+
   /* NEWS */
- 
+
 div#d_news{
 	overflow:hidden;
 	height:230px;
@@ -377,11 +429,11 @@ span.s_news_contenu{
 span.s_news_contenu a{
 	color: #000000;
 	text-decoration:none;
-	text-indent:40px;	
+	text-indent:40px;
 }
 span.s_news_contenu a:hover{
 	color: #000000;
-	text-decoration:underline;	
+	text-decoration:underline;
 }
 span.s_newsSuite a{
 	font-size: 1em;
@@ -442,7 +494,7 @@ div#d_src_photos{
 div#d_src_photos img{
 	border: 1px solid black;
 }
-a#a_txt_photos{
+a#a_txt_photos, #a_txt_mutations{
 	display: inline-block;
 	position:relative;
 	text-align: center;
@@ -495,13 +547,13 @@ div#d_menu img{
 	position:relative;
 	z-index: 11;
 	vertical-align: middle;
-	display: inline; 
+	display: inline;
 }
 a.a_boutons_int{
 	z-index: 10;
-	position:relative;	
+	position:relative;
 	vertical-align: middle;
-	display: inline-block; 
+	display: inline-block;
 	margin-top: 2px;
 	cursor: pointer;
 	margin-left: -24px;
@@ -575,6 +627,16 @@ div#d_footer{
 	width:820px;
 	overflow:visible;
 }
+div#d_footer .logo_cdtt{
+	display: inline-block;
+	background-image: url(img/lien_CDTT_44_base.png);
+	background-position-y: 2px;
+	width: 100px;
+	height: 55px;
+}
+div#d_footer .logo_cdtt:hover{
+    background-image: url(img/lien_CDTT_44_hover.png);
+}
 div#d_compte_a_rebours{
 	display: inline-block;
 	height: 75px;
@@ -591,7 +653,7 @@ div#d_compte_a_rebours span{
 div#d_compte_a_rebours #d_compte_a_rebours_texte {
 	padding-top: 5px;
 }
-div#d_compte_a_rebours #d_compte_a_rebours_row_head span{	
+div#d_compte_a_rebours #d_compte_a_rebours_row_head span{
 	font-size: 9px;
 	text-transform : uppercase;
 	margin: 0px;
@@ -612,7 +674,10 @@ div#d_compte_a_rebours #d_compte_a_rebours_row_values span{
 	-webkit-border-bottom-left-radius: 4px;
 	-webkit-border-bottom-right-radius: 4px;
 }
+div.d_logos {
+	text-align: center;
+}
 span.s_logos{
 	vertical-align: top;
-	padding-right: 16px;
+	padding-right: 60px;
 }

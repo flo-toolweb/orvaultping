@@ -19,10 +19,8 @@ $oUsers = new users();
         <li><i>Liste des joueurs</i>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; </li>
         <li><a href="./files/class_indiv.pdf"target="_blank" title="Tableaux des progressions - fichier pdf">
 			Tableaux des progressions</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</li> 
-        <li><a href="http://www.fftt.com/sportif/pclassement/php3/FFTTlj.php3?session=reqid%3D311%26precision%3D04440141"target="_blank" title="Lien FFTT vers la liste des joueurs du club - Femmes">
-			Liste FFTT - Femmes</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</li> 
-        <li><a href="http://www.fftt.com/sportif/pclassement/php3/FFTTlj.php3?session=reqid%3D211%26precision%3D04440141" target="_blank" title="Lien FFTT vers la liste des joueurs du club - Hommes">
-			Liste FFTT - Hommes</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</li> 
+        <li><a href="http://www.fftt.com/site/competition/classement/classement-departemental?nclub=04440141"target="_blank" title="Lien FFTT vers la liste des joueurs du club">
+			Liste FFTT</a>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</li> 
         <li><a href="index.php?page=joueurs_top5" title="Top 5 des meilleurs progressions par phase">Top 5</a></li> 
     </ul> 
 </div>

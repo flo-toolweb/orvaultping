@@ -23,9 +23,9 @@ include('include/class_fetes.php');
 		<meta name="Description" content="Orvault Sport Tennis de Table - Retrouvez l'actualit&eacute;, les r&eacute;sultats et bien d'autres informations sur le club"/>
 		<meta name="Subject" content="Tennis de table"/>
 		<meta name="Author" content="Florian Ab&eacute;lard"/>
-		<meta name="Language" content="franÃ§ais"/>
+		<meta name="Language" content="français"/>
 		<meta name="Revisit-After" content="7 days"/>
-		<?php 
+		<?php
 		    if (TYPE_ENV == 'prod') {
                 echo '<meta name="Robots" content="index, follow"/>';
             }
@@ -41,37 +41,37 @@ include('include/class_fetes.php');
 		<script type="text/javascript" src="./js/include/login.js"></script>
 		<script type="text/javascript" src="./js/include/home.js"></script>
 		<!--<script type="text/javascript" src="./js/include/template.js"></script>-->
-		<!--[if lte IE 8]> 
-		<script type="text/javascript" src="./js/lib/roundies.js"> 
+		<!--[if lte IE 8]>
+		<script type="text/javascript" src="./js/lib/roundies.js">
 		</script>
 		<script type="text/javascript">
 			DD_roundies.addRule('div#d_news_titre', '5px');
 			DD_roundies.addRule('div.d_news_contenu', '10px');
-			DD_roundies.addRule('div#d_id_titre', '5px'); 
-			DD_roundies.addRule('div#d_id_connec', '7px'); 
-			DD_roundies.addRule('div#d_connec_ok', '7px'); 
-			DD_roundies.addRule('div#d_deco_ok', '7px'); 
+			DD_roundies.addRule('div#d_id_titre', '5px');
+			DD_roundies.addRule('div#d_id_connec', '7px');
+			DD_roundies.addRule('div#d_connec_ok', '7px');
+			DD_roundies.addRule('div#d_deco_ok', '7px');
 			DD_roundies.addRule('div#d_connec_error', '7px');
-			DD_roundies.addRule('a.a_boutons_int', '12px'); 
+			DD_roundies.addRule('a.a_boutons_int', '12px');
 		</script>
-		
+
 		<![endif]-->
 
 	</head>
-	
+
 	<body >
 		<div id="upImages">
 			<img src="themes/ttBlue/home/img/btn_inscription_on.png" alt="Prechargement de l'image"/>
 		</div>
 		<div id="d_global">
-			<div id="d_header">		
+			<div id="d_header">
 				<div id="d_header_gauche">
-					<div id="d_id">	
-						<div id="d_id_titre">	
+					<div id="d_id">
+						<div id="d_id_titre">
 							<p>Identification</p>
 						</div>
-							
-						<div id="d_id_contenu">	
+
+						<div id="d_id_contenu">
 							<?php affId(); ?>
 						</div>
 					</div>
@@ -83,42 +83,53 @@ include('include/class_fetes.php');
 								</span>
 							<?php
 							}
-						?>		
+						?>
 					</div>
 					<!-- Fin div erreur -->
-					<!--
-					<div id="d_inscription">	
+
+					<div id="d_inscription">
 						<a href="index.php?page=inscriptions" id="a_inscription"><img src="themes/ttBlue/home/img/spacer.gif"  alt=""/></a>
 					</div>
-					-->
+					<!--div id="d_tournoi">
+					  <a href="index.php?page=tournoi" id="a_tournoi" title="Inscription tournoi"><img src="themes/ttBlue/home/img/spacer.gif" alt=""/></a>
+					</div-->
+					<!--div id="d_babyping">
+					  <a href="index.php?page=babyping" id="a_babyping" title="Animation Baby ping"><img src="themes/ttBlue/home/img/spacer.gif" alt=""/></a>
+					</div-->
+					<!--div id="d_criterium">
+						<a href="index.php?page=criterium" id="a_criterium"><img src="themes/ttBlue/home/img/Oceane Guisnel.jpg"  alt="Océane Guisnel"/></a>
+					</div-->
+          <!--div id="d_mutation">
+						<a href="index.php?page=mutations" id="a_txt_photos">Informations mutations</a>
+					</div-->
 				</div>
 				<!-- Fin div header_gauche -->
 				<div id="d_header_droite">
-					<div id="d_news">	
-						<div id="d_news_titre" class="arrondi">	
-							<p><a href="index.php?page=news" title="Acc&eacute;der &agrave; la page des actualitï¿½s du club">
+					<div id="d_news">
+						<div id="d_news_titre" class="arrondi">
+							<p><a href="index.php?page=news" title="Acc&eacute;der &agrave; la page des actualit?s du club">
 								Vie du club
 							</a></p>
-						</div>		
-						<?php 
+						</div>
+						<?php
 							$oNews = new News();
-							$tNews1 = $oNews -> getNewsHome(0); 
-							$tNews2 = $oNews -> getNewsHome(1); 
-						?>					
-						<div class="d_news_contenu">	
+							$tNews1 = $oNews -> getNewsHome(0);
+							$tNews2 = $oNews -> getNewsHome(1);
+						?>
+						<div class="d_news_contenu">
 							<!-- News 1 -->
 							<span class="s_news_titre"><?php echo $tNews1['news_titre']; ?></span>
 							<br/>
 							<?php
-								// On coupe les news si nï¿½cessaire
-								$oNews -> affNewsHome($tNews1['news_contenu']); 
+								// On coupe les news si n?cessaire
+								$oNews -> affNewsHome($tNews1['news_contenu']);
 							?>
-								
-							<div class="d_news_footer">	
+
+							<div class="d_news_footer">
 								<?php $tDate = toDateTimeFr($tNews1['news_date']); ?>
-								<span class="s_news_date">le <?php echo $tDate['date']; ?>&nbsp;&nbsp;&agrave; <?php echo $tDate['heure']; ?></span>							
+								<span class="s_news_date">le <?php echo $tDate['date']; ?>&nbsp;&nbsp;&agrave; <?php echo $tDate['heure']; ?></span>
 								<span class="s_news_auteur">par <?php echo $tNews1['news_auteur']; ?></span>
-							</div>	
+							</div>
 							<div class="d_clear"></div>
 							<div class="d_separation"></div>
 							<!-- News 2 -->
@@ -126,19 +137,19 @@ include('include/class_fetes.php');
 							<br/>
 							<?php
 								// Affichage du contenu de la news
-								$oNews -> affNewsHome($tNews2['news_contenu']); 
+								$oNews -> affNewsHome($tNews2['news_contenu']);
 							?>
-								
-							<div class="d_news_footer">	
+
+							<div class="d_news_footer">
 								<?php $tDate = toDateTimeFr($tNews2['news_date']); ?>
-								<span class="s_news_date">le <?php echo $tDate['date']; ?>&nbsp;&nbsp;&agrave; <?php echo $tDate['heure']; ?></span>							
+								<span class="s_news_date">le <?php echo $tDate['date']; ?>&nbsp;&nbsp;&agrave; <?php echo $tDate['heure']; ?></span>
 								<span class="s_news_auteur">par <?php echo $tNews2['news_auteur']; ?></span>
 							</div>
 						</div>
 					</div>
 					<!-- Fin div news -->
 					<!--
-					<div id="d_calendrier">	
+					<div id="d_calendrier">
 						<div id="d_txt_calendrier">
 							<a href="https://www.google.com/calendar/embed?title=Agenda&amp;showTitle=0&amp;showTz=0
 									&amp;mode=MONTH&amp;height=600&amp;wkst=2&amp;hl=fr&amp;bgcolor=%23FFFFFF
@@ -148,37 +159,37 @@ include('include/class_fetes.php');
 									&amp;src=31s8l2hgsv3ve5m6n7gj8uotuc%40group.calendar.google.com&amp;color=%232952A3
 									&amp;src=5ksrmc8hdb2ccl03a3l1iccpag%40group.calendar.google.com&amp;color=%237A367A
 									&amp;src=pbibskkgp8bbkjuioi85731pds%40group.calendar.google.com&amp;color=%23BE6D00
-									&amp;src=fr.french%23holiday%40group.v.calendar.google.com&amp;color=%234E5D6C&amp;ctz=Europe%2FParis" 
-									target="_blank" title="Calendrier du Club - Lien externe Google Calendar">	
+									&amp;src=fr.french%23holiday%40group.v.calendar.google.com&amp;color=%234E5D6C&amp;ctz=Europe%2FParis"
+									target="_blank" title="Calendrier du Club - Lien externe Google Calendar">
 								Calendrier du club
-							</a>	
+							</a>
 						</div>
 					</div>
 					-->
-					<div id="d_photos">					
-						<?php 
+					<div id="d_photos">
+						<?php
 							$oPhotoWeek = new photoWeek("./photos");
 							if ( !tableIsEmpty($oPhotoWeek->tablePhotoWeek) ) {
 								$tPhotoWeek = $oPhotoWeek->getPhotoWeek();
 						?>
-						<a id="a_txt_photos" href="#" onclick="centrage_popup('themes/ttBlue/popup/photoWeekPopup.php', 
+						<a id="a_txt_photos" href="#" onclick="centrage_popup('themes/ttBlue/popup/photoWeekPopup.php',
 													<?php echo $tPhotoWeek['photoWeek_largeur']+30; ?>,
 													<?php echo $tPhotoWeek['photoWeek_hauteur']+40; ?>,
 													'scrollbars=1, toolbar=0, titlebar=0, status=0, resizable=1');"
 													title="Afficher la photo : <?php echo stripSlashes($tPhotoWeek['photoWeek_description']); ?>"
 													>
-							
-							<!--<img src="./photos/photoWeek/mini/<?php echo $tPhotoWeek['photoWeek_nomMini']; ?>" 
+
+							<!--<img src="./photos/photoWeek/mini/<?php echo $tPhotoWeek['photoWeek_nomMini']; ?>"
 								title="<?php echo stripSlashes($tPhotoWeek['photoWeek_description']); ?>"
 								alt="<?php echo stripSlashes($tPhotoWeek['photoWeek_description']); ?>"
 							/>	-->
-							<img src="./photos/photoWeek/mini/<?php echo $tPhotoWeek['photoWeek_nomMini']; ?>" 
+							<img src="./photos/photoWeek/mini/<?php echo $tPhotoWeek['photoWeek_nomMini']; ?>"
 								title="<?php echo stripSlashes($tPhotoWeek['photoWeek_description']); ?>"
 								alt="<?php echo stripSlashes($tPhotoWeek['photoWeek_description']); ?>"
 								id="photo_semaine_mini"
-							/>	
+							/>
 							Photo de la semaine
-						</a>					
+						</a>
 						</span>
 						<?php } ?>
 					</div>
@@ -188,33 +199,33 @@ include('include/class_fetes.php');
 			</div>
 			<!-- Fin div header -->
 			<div id="d_contenu">
-				<div id="d_menu">				
+				<div id="d_menu">
 					<img src="themes/ttBlue/home/img/img_btn_le_club.png" alt="Image bouton Le club"/>
 					<a href="index.php?page=le_club" title="Toutes les informations sur le club" class="a_boutons_int" id="a_le_club">
 						Le club
 					</a>
-					<img src="themes/ttBlue/home/img/img_btn_equipes.png" alt=""/>						
-					<a href="index.php?page=equipes" title="Page de prï¿½sentation des ï¿½quipes" class="a_boutons_int" id="a_equipes">
+					<img src="themes/ttBlue/home/img/img_btn_equipes.png" alt=""/>
+					<a href="index.php?page=equipes" title="Page de pr&eacute;sentation des &eacute;quipes" class="a_boutons_int" id="a_equipes">
 						&Eacute;quipes
 					</a>
 					<img src="themes/ttBlue/home/img/img_btn_joueurs.png" alt=""/>
 					<a href="index.php?page=joueurs" title="Liste des joueurs du club" class="a_boutons_int" id="a_joueurs">
 						Joueurs
-					</a>		
+					</a>
 					<img src="themes/ttBlue/home/img/img_btn_forum.png" alt=""/>
-					<a href="index.php?page=forum_liste" atitle="Le forum - Utilisateurs connectï¿½s uniquement" class="a_boutons_int" id="a_forum">	
+					<a href="index.php?page=forum_liste" title="Le forum - Utilisateurs connect&eacute;s uniquement" class="a_boutons_int" id="a_forum">
 						Forum
-					</a>		
+					</a>
 					<img src="themes/ttBlue/home/img/img_btn_photos.png" alt=""/>
-					<a href="index.php?page=medias" title="Les photos et les vidï¿½os du club" class="a_boutons_int" id="a_medias">	
+					<a href="index.php?page=medias" title="Les photos et les vid&eacute;os du club" class="a_boutons_int" id="a_medias">
 						M&eacute;dias
-					</a>	
+					</a>
 					<img src="themes/ttBlue/home/img/img_btn_contacts.png" alt=""/>
-					<a href="index.php?page=contact-plan" title="Page des contacts et du plan d'accï¿½s" class="a_boutons_int" id="a_contacts">	
+					<a href="index.php?page=contact-plan" title="Page des contacts et du plan d'acc&egrave;s" class="a_boutons_int" id="a_contacts">
 						Contacts/Plan
-					</a>	
+					</a>
 					<img src="themes/ttBlue/home/img/img_btn_partenaires.png" alt=""/>
-					<a href="index.php?page=partenaires" title="Liste des partenaires du club"  class="a_boutons_int" id="a_partenaires">	
+					<a href="index.php?page=partenaires" title="Liste des partenaires du club"  class="a_boutons_int" id="a_partenaires">
 						Partenaires
 					</a>
 				</div>
@@ -226,13 +237,13 @@ include('include/class_fetes.php');
 							$tt=time();
 							$mois=date("m",$tt);
 							$jour=date("d",$tt);
-							$prenom = $oFetes -> getPrenom($jour, $mois); 
-							
+							$prenom = $oFetes -> getPrenom($jour, $mois);
+
 							echo dateFullFr();
-							if ( $prenom != "0" ) {	
+							if ( $prenom != "0" ) {
 								echo " - Nous f&ecirc;tons aujourd'hui la saint ".$prenom." ! ";
 							}
-							
+
 
 						?>
 					</span>
@@ -253,22 +264,48 @@ include('include/class_fetes.php');
 						<span id="s_compte_a_rebours_heures"></span>
 						<span id="s_compte_a_rebours_minutes"></span>
 						<span id="s_compte_a_rebours_secondes"></span>
-					</div>				
+					</div>
 					<div id="d_compte_a_rebours_texte">
-						Bientï¿½t la nouvelle salle :-)
-					</div>				
+						Bient?t la nouvelle salle :-)
+					</div>
 				</div>
 				-->
-				<span class="s_logos">
-					<a href="http://www.fftt.com" target="_blank" title="F&eacute;d&eacute;ration Franï¿½aise de Tennis de Table"><img src="themes/ttBlue/home/img/lien_FFTT.png" alt="Logo FFTT"/></a>
-				</span>
-				<span class="s_logos">
-					<a href="http://www.cdtt44.fr" target="_blank" title="Comit&eacute; de Tennis de Table de Loire-Atlantique"><img src="themes/ttBlue/home/img/lien_CDTT44.png" alt="Logo CDTT44"/></a>
-				</span>
+                                <div class="d_logos">
+                                	<div>
+						<span class="s_logos">
+							<a href="http://www.orvault.fr/" target="_blank" title="Ville d'orvault"><img src="themes/ttBlue/home/img/lien_orvault.png" alt="Logo Orvault"/></a>
+						</span>
+						<span class="s_logos">
+							<a href="http://www.ancv.com" target="_blank" title="Ch&egrave;que-vacances"><img src="themes/ttBlue/home/img/LOGO_CHEQUE_VACANCES.png" alt="Logo ANCV"/></a>
+						</span>
+						<span class="s_logos">
+							<a href="http://www.fftt.com" target="_blank" title="F&eacute;d&eacute;ration Française de Tennis de Table"><img src="themes/ttBlue/home/img/lien_FFTT.png" alt="Logo FFTT"/></a>
+						</span>
+						<span class="s_logos">
+							<a href="http://www.handisport.org/" target="_blank" title="F&eacute;d&eacute;ration Française Handisport"><img src="themes/ttBlue/home/img/logo_handi_sport.png" alt="Logo FFH"/></a>
+						</span>
+						<span class="s_logos">
+							<a href="http://www.cnds.sports.gouv.fr/" target="_blank" title="CNDS"><img src="themes/ttBlue/home/img/Logo cnds.png" alt="CNDS"/></a>
+						</span>
+        	                	</div><div>
+						<span class="s_logos">
+							<a href="http://www.ffsa.asso.fr/" target="_blank" title="F&eacute;d&eacute;ration Française du Sport Adapt&eacute;"><img src="themes/ttBlue/home/img/lien_ffsa.png" alt="Logo FFSA"/></a>
+						</span>
+						<span class="s_logos">
+							<a href="http://www.cdtt44.fr" target="_blank" title="Comit&eacute; de Tennis de Table de Loire-Atlantique" class="logo_cdtt"></a>
+						</span>
+						<span class="s_logos">
+							<a href="http://tennisdetablepaysdelaloire.org" target="_blank" title="Ligue Pays de loire de Tennis de Table"><img src="themes/ttBlue/home/img/lien_PDL.png" alt="Logo PDL"/></a>
+						</span>
+						<span class="s_logos">
+							<a href="https://www.facebook.com/orvaultsporttennisdetable" target="_blank" title="Page Facebook OSTT"><img src="themes/ttBlue/home/img/FB-FindUsonFacebook-online-1024_fr_FR.png" alt="Page Facebook OSTT"/></a>
+						</span>
+                                	</div>
+                                </div>
 			</div>
 			<!-- Fin div footer -->
 		</div>
 		<!-- Fin div global -->
 	</body>
-	
+
 </html>

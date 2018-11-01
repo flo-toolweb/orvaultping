@@ -153,6 +153,10 @@
 								Partenaires
 							</a>
 						</div>
+						<div class="d_menu_lien">	
+							<a href="https://www.facebook.com/orvaultsporttennisdetable" target="_blank" title="Page Facebook OSTT"><img src="themes/ttBlue/pages/img/FB-FindUsonFacebook-online-1024_fr_FR.png" alt="" /></a>
+						</div>
+
 						<br/><br/>
 					</div>
 					<!-- Fin div menu-->
@@ -177,11 +181,15 @@
 				</div>
 				<div id="d_footer_droite">
 					<span>
+						<a href="http://www.ancv.com" target="_blank" title="Ch&egrave;que-vacances"><img src="themes/ttBlue/pages/img/LOGO_CHEQUE_VACANCES.png" alt="Logo ANCV"/></a>
+					</span>
+					&nbsp;
+					<span>
 						<a href="http://www.fftt.com" target="_blank" title="F&eacute;d&eacute;ration Fran�aise de Tennis de Table"><img src="themes/ttBlue/pages/img/lien_FFTT.png"/></a>
 					</span>
-					&nbsp;&nbsp;&nbsp;
+					&nbsp;
 					<span class="s_logos">
-						<a href="http://www.cdtt44.fr" target="_blank" title="Comit&eacute; de Tennis de Table de Loire-Atlantique"><img src="themes/ttBlue/pages/img/lien_CDTT44.png"/></a>
+						<a href="http://www.cdtt44.fr" target="_blank" title="Comit&eacute; de Tennis de Table de Loire-Atlantique" class="logo_cdtt"></a>
 					</span>
 				</div>
 			</div>

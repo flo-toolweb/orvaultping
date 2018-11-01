@@ -438,7 +438,7 @@ div#d_footer_gauche{
 	padding-top:22px;
 	text-align: center;
 	padding-left: 10px;
-	width:710px;
+	width:610px;
  }
 div#d_footer_gauche p{	
 	color: #003366;
@@ -447,9 +447,19 @@ div#d_footer_gauche p{
 }
 div#d_footer_droite{	
 	overflow:auto;
-	width:190px;
+	width:290px;
 	height:78px;
 	padding-left:10px;
+ }
+ div#d_footer .logo_cdtt{
+	display: inline-block;
+	background-image: url(img/lien_CDTT_44_base.png);
+	background-position-y: 2px;
+	width: 100px;
+	height: 55px;
+ }
+ div#d_footer .logo_cdtt:hover{
+    background-image: url(img/lien_CDTT_44_hover.png);
  }
  span#s_validator img{
 	margin-right:15px;

@@ -10,71 +10,95 @@ p.p_intro span{
 	text-indent: 40px ;
 }
 /* Entrainements */
-table#t_entrainements {
+table.t_entrainements {
 	margin: auto;
 	width: 680px;
 	text-align: center;
 	border-collapse: separate;
 	border-spacing: 10px 3px;
 }
-table#t_entrainements  thead{
+table.t_entrainements  thead{
 }
-table#t_entrainements  th{
+table.t_entrainements  th{
 	border: 1px solid #03638A;
 	background-color: #FFCC66;
 	font-weight: bold;
 	padding: 10px;
 }
-table#t_entrainements  td{
+table.t_entrainements  td{
 	padding: 1px;
 	border: 1px solid #03638A;
 	font-weight: normal;
 	vertical-align: middle;
 }
-table#t_entrainements .th_heures{
+table.t_entrainements .th_heures{
 	width: 7%;
 	background-color: transparent;	
 	border: none;
 }
-table#t_entrainements .td_heures{
+table.t_entrainements .td_heures{
 	font-size: 0.9em;
 	font-weight: bold;
-	text-align: left;
+	text-align: right;
 	border-right: none;
 	border-left: none;
 	border-top: none;
 	border-bottom: none;
 	vertical-align: top;
 }
-table#t_entrainements .td_mardi{
+table.t_entrainements .td_mardi{
 	width: 23%;
 }
-table#t_entrainements  .td_mercredi{
+table.t_entrainements  .td_mercredi{
 	width: 23%;
 } 
-table#t_entrainements  .td_jeudi{
+table.t_entrainements  .td_jeudi{
 	width: 23%;
 } 
-table#t_entrainements  .td_vendredi{
+table.t_entrainements  .td_vendredi{
 	width: 23%;
 } 
-table#t_entrainements  .td_vide{
+table.t_entrainements  .td_vide{
 	border: none;
 }
-table#t_entrainements  .td_competition{
-	background-color: #CC3333;
+table.t_entrainements  .td_competition{
+	background-color: white;
 }
-table#t_entrainements  .td_libre{
-	background-color: #66CDAA;
+table.t_entrainements  .td_libre{
+	background-color: #0c01b5;
+	color: white;
 }
-table#t_entrainements  .td_jeune{
-	background-color: #FF6633;
+table.t_entrainements  .td_initiation{
+	background-color: #fbff00;
 }
-table#t_entrainements  .td_loisir{
-	background-color: #87CEFA;
+table.t_entrainements  .td_poussin{
+        background-color: #ffdea6;
 }
-table#t_entrainements   .td_short{
+table.t_entrainements  .td_espoir{
+        background-color: #ab0066;
+}
+table.t_entrainements  .td_progress{
+        background-color: #ab0066;
+}
+table.t_entrainements  .td_performance{
+	background-color: #028e33;
+}
+table.t_entrainements  .td_feminin{
+	background-color: #ff0000;
+}
+table.t_entrainements  .td_sport_adapte{
+	background-color: #00b7ef;
+}
+table.t_entrainements  .td_ora{
+	background-color: #ff0000;
+}
+table.t_entrainements   .td_short{
 	width: 15%;
+}
+
+ul.list {
+    padding: 10px 0px;
+    padding-left: 80px;
 }
   
 /* FIN LE CLUB */

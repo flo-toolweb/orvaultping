@@ -27,138 +27,393 @@
 			target="_blank" title="Calendrier du Club - Lien externe Google Calendar">
 			Calendrier du Club</a>
 			&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</li--> 
-        <li><a href="http://www.cdtt44.fr/documents_cdtt44/Saison20142015/calgen1415.pdf" title="Calendrier Officiel du CDTT44 - Lien externe" target="_blank">
-			Calendrier Officiel</a>
+        <li><a href="http://cdtt44.fr/documents_cdtt44/saison2018-2019/telecompt/calgen1819.pdf" title="Calendrier Officiel du CDTT44 - Lien externe" target="_blank">
+			Calendrier général 2018-2019</a>
 			&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</li> 
         <!--li><a href="index.php?page=liens_utiles" title="Différents fichiers à télécharger">
 			Liens utiles</a>
 			&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</li--> 
-        <li><a href="files/STATUT_OSTT_06_2007.pdf" title="Statuts du club - Fichier .pdf" target="_blank">
+        <li><a href="files/STATUT_OSTT_06_2013.pdf" title="Statuts du club - Fichier .pdf" target="_blank">
 			Les statuts</a></li> 
     </ul> 
 </div>
 <div id="d_le_club">
-	<br/><br/>
-	<p class="p_intro">
-		<span>
-			Le club d'Orvault Sport Tennis de table créé en 1979, est affilié à la Fédération Française de Tennis de Table (FFTT) pour sa 34ème saison.
-		</span><br/>
-		<br/>
-		<span>
-			La saison dernière, plus de 160 licenciés étaient  inscrits au club et ont participé au championnat et aux compétitions individuelles,
-			dont près de 30% étaient des jeunes (juniors, cadets, minimes, benjamins, poussins).
-			
-		</span><br/>
-		<br/>
-		<span>
-			La salle Germain Tilagone livrée en mars dernier sur le complexe de la Cholière nous permet d'envisager une saison 2015/2016 riche en évènements au sein de l'association.
-		</span><br/>
-	</p>
 	<br/>
-		<H2>Cours de <b>Baby-ping</b> le samedi matin à partir de la rentrée (septembre 2015)</h2><br/><span>
-			Le club proposera 2 groupes d’une durée de 1h15<br/><span>
-			- 1 groupe baby ping pour les 4 à 6 ans<br/>
-			- 1 groupe débutants pour les 7 à 9 ans.<br/>
-			Nombre de participants par groupes : 8 à 12.<br/>
-			Horaires : 9h30 à 10h45 et 10h45 à 12h.
-		</span><br/>
-	</span>
+	<p>Le club d'Orvault Sport Tennis de Table, affilié à la Fédération Française de Tennis de Table (FFTT) depuis 1979, va fêter son 40ème anniversaire au cours de la saison 2018/2019 ! </p>
+	<br/>
+<p>Grâce à la mise à la disposition de la salle de raquettes Germain Tilagone par la Mairie d’Orvault en avril 2015, le club dispose d’un équipement moderne et spécifique permettant à ses adhérents d’exercer leur sport favori dans les meilleures conditions. </p>
+	<br/>
+<p>Dans le cadre du développement du club et des objectifs fixés dans le projet « OSTT 2021 » présenté en assemblée générale du 8 juin 2016, le club a créé en août 2017 un emploi d’éducateur sportif à plein temps et en CDI. L’OSTT a obtenu les aides financières de l’Etat (CNDS) pour la création et la pérennisation de l’emploi. Un contrat de travail a ainsi été signé en juin 2017 avec Elisa Vaccara, éducatrice sportive diplômée. </p>
+	<br/>
+<p>La saison dernière, avec ses 247 licenciés, l’OSTT pointait, en termes d’effectif, au premier rang des clubs de Loire Atlantique et au deuxième de la région des Pays de la Loire. L’effectif compte 87 jeunes, soit 35 % (catégories juniors, cadets, minimes, benjamins, poussins) et 63 retraités de l’association Orvault Retraite Active. </p>
+	<br/>
+<p>Depuis septembre 2016, une section Sport Adapté a été créée suite à la collaboration avec l’ADAPEI 44 et l’ESAT «Les Ateliers de la Cholière». Huit adultes ou adolescents en situation de handicap ont bénéficié de créneaux les mardis et jeudis et de la double licence FFTT et FFSA. Le club est également affilié à la Fédération Française Handisport depuis 2017. </p>
+	<br/>
+<p>Le Baby-Ping destiné aux enfants de 3 à 6 ans poursuit son développement grâce à la journée découverte organisée le samedi 26 mai 2018 par Elisa Vaccara. Le groupe Mini’pouss a accueilli 16 jeunes de 7 à 9 ans sur la saison 2017/2018. Par ailleurs, près de 30 licenciés ont participé aux épreuves individuelles : Critérium Fédéral et circuit Poussins/Benjamins. Les plus jeunes notamment se sont illustrés en montant à plusieurs reprises sur les podiums. En outre, le club a engagé 18 équipes dans les différents championnats départementaux et régionaux, de jeunes à vétérans, dont 2 équipes féminines. </p>
+	<br/>
+<p>Lors de la prochaine saison, outre ses tournois internes de rentrée, de Noël et de fin de saison, Orvault Sport Tennis de Table recevra ou organisera son tournoi régional en février 2019 et l’animation Baby Ping du Comité Départemental 44 le samedi 23 mars 2019.
+	<br/>
+<p>Après l’organisation du 4ème tour du Critérium National 1 Dames en mars 2017, l’OSTT recevra un évènement sportif de grande importance pour son 40ème anniversaire : les <b>Finales Nationales par Classements </b>. Elles se dérouleront au complexe sportif de la Cholière les 22 et 23 juin 2019. Comme en mars 2017, grâce à la mobilisation de nombreux licenciés bénévoles autour de son conseil d’administration, gageons que cette manifestation rencontrera un beau succès. Cet évènement permettra de contribuer au développement du Tennis de Table et à faire connaître un peu plus la ville d’Orvault. </p>
 
 	<br/>
 	<br/>
-	<h2>Le planning prévisionnel des entraînements pour la saison 2015/2016:</h2><br/>
-		<br/>
-		<table id="t_entrainements">
-			<thead>
-			<tr>
-				<th class="th_heures"></th>
-				<th class="td_mardi">Mardi</th>
-				<th class="td_mercredi">Mercredi</th>
-				<th class="td_jeudi">Jeudi</th>
-				<th class="td_vendredi">Vendredi</th>
-			</tr>
-			</thead>
-			<tr>
-				<td class="td_heures td_vide">&nbsp;</td>
-				<td class="td_vide"></td>
-				<td class="td_vide"></td>
-				<td class="td_vide"></td>
-				<td class="td_vide"></td>
-			</tr>
-			<tr>
-				<td class="td_heures"> - 15H</td>
-				<td rowspan="3" class="td_vide"></td>
-				<td rowspan="3" class="td_jeune"><b>Groupe initiation 2</b><br/>(20 jeunes)<br/>15h00 - 16h30</td>
-				<td rowspan="3" class="td_vide"></td>
-				<td rowspan="3" class="td_vide"></td>
-				<td rowspan="3" class="td_vide"></td>
-			</tr>
-			<tr>
-				<td class="td_heures"> - </td>
-			</tr><tr>
-				<td class="td_heures"> - 16H</td>
-			</tr>
-			<tr>
-				<td class="td_heures"> - </td>
-				<td rowspan="3" class="td_vide"></td>
-				<td rowspan="3" class="td_jeune"><b>Groupe performance</b><br/>(14 jeunes)<br/>16h30 - 18h00</td>
-				<td rowspan="3" class="td_vide"></td>
-				<td rowspan="3" class="td_vide"></td>
-			</tr>
-			<tr>
-				<td class="td_heures"> - 17H</td>
-			</tr>
-			<tr>
-				<td class="td_heures"> - </td>
-			</tr>
-			<tr>
-				<td class="td_heures"> - 18H</td>
-				<td rowspan="3" class="td_jeune"><b>Groupe initiation 1</b><br/>(16 jeunes)<br/>18h00 - 19h30</td>
-				<td rowspan="3" class="td_jeune"><b>Elite Jeunes</b><br/>(8 joueurs)<br/>18h00 - 19h30</td>
-				<td rowspan="3" class="td_jeune"><b>Groupe mixte performance / Elite jeunes</b><br/>18h00 - 19h30</td>
-				<td rowspan="3" class="td_jeune"><b>Groupe performance</b><br/>18h00 - 19h30</td>
-			</tr>
-			<tr>
-				<td class="td_heures"> - </td>
-			</tr>
-			<tr>
-				<td class="td_heures"> - 19H</td>
-			</tr>
-			<tr>
-				<td class="td_heures"> - </td>
-				<td class="td_vide"></td>
-				<td class="td_vide"></td>
-				<td class="td_vide"></td>
-				<td class="td_vide"></td>
-			</tr>
-			<tr>
-				<td class="td_heures"> - 20H</td>
-				<td rowspan="4" class="td_competition"><b>Elite adultes</b><br/>20h00 - 22h00</td>
-				<td rowspan="5" class="td_competition"><b>Compétition adultes</b><br/>20h00 - 22h30</td>
-				<td rowspan="4" class="td_loisir"><b>Loisirs</b><br/>20h00 - 22h00</td>
-				<td rowspan="4" class="td_competition"><b>Elite jeune / Compétition adultes</b><br/>20h00 - 22h00</td>
-			</tr>
-			<tr>
-				<td class="td_heures"> - </td>
-			</tr>
-			<tr>
-				<td class="td_heures"> - 21H</td>
-			</tr>
-			<tr>
-				<td class="td_heures"> - </td>
-			</tr>
-			<tr>
-				<td class="td_heures"> - 22H</td>
-			</tr>
-			<tr>
-				<td class="td_heures"> - </td>
-			</tr>
-		</table>
-		<br/>
-		<ul>
-			<li>- Pour les groupes Jeunes, des réajustements par niveau pourront être effectués à chaque période de vacances scolaires.</li>
-			<li>- Des ateliers spécifiques ou de types de jeu seront proposés une fois par mois le vendredi (picots, défense …)</li>
-			<li>- Compte tenu des possibilités de la salle, les compétiteurs pourront venir s’entraîner en libre à partir de 18 h, et le samedi matin, sans gêner les cours dirigés.</li>
-		</ul>
+  <h2>Le planning des entraînements pour la saison 2017 / 2018 :</h2>
+	<br/>
+	<br/>
+  <table class="t_entrainements">
+		<thead>
+		<tr>
+			<th class="th_heures"></th>
+			<th colspan="2">Mardi</th>
+		</tr>
+		</thead>
+		<tbody><tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">14H</td>
+			<td rowspan="8" class="td_ora"><b>ORA</b><br><br>14h00 - 18h00</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">15H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">16H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">17H</td>
+		<td rowspan="2" class="td_espoir"><b>Espoirs</b> / 17h00 - 18h00</td></tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">18H</td>
+			<td rowspan="3" colspan="2" class="td_poussin"><b>Poussins / Benjamins</b><br><br>18h00 - 19h30</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">19H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">20H</td>
+			<td rowspan="5" class="td_competition" colspan="2"><b>Adultes non compétiteurs</b><br><br>20h00 - 22h00</td>
+			
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">21H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">22H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+	</tbody></table>
+	<br/>
+  <table class="t_entrainements">
+		<thead>
+		<tr>
+			<th class="th_heures"></th>
+			<th colspan="3">Mercredi</th>
+		</tr>
+		</thead>
+		<tbody><tr>
+			<td class="td_heures">&nbsp;</td>
+			<td class="td_vide"></td>
+			<td class="td_vide"></td>
+			<td class="td_vide"></td>
+		</tr>
+                <tr>
+			<td class="td_heures">&nbsp;</td>
+                        <td colspan="3" rowspan="3" class="td_initiation"><b>Initiation 1</b><br><br>13h30 - 15h00</td>
+		</tr>
+		<tr>
+			<td class="td_heures">14H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">15H</td>
+			<td rowspan="3" class="td_progress"><b>Progress'</b><br><br>15h00 - 16h30</td>
+			<td class="td_vide"></td>
+			<td rowspan="15" class="td_libre"><b>Entraînement<br>Libre</b><br><br><br>15h00 - 22h30</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">16H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+			<td class="td_vide"></td>
+			<td rowspan="3" class="td_poussin"><b>Poussins /<br>Benjamins</b><br>16h30 - 18h00</td>
+		</tr>
+		<tr>
+			<td class="td_heures">17H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+			<td rowspan="4" class="td_performance"><b>Performance</b><br><br>17h30 - 19h30</td>
+		</tr>
+		<tr>
+			<td class="td_heures">18H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">19H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+			<td rowspan="5" colspan="2" class="td_competition"><b>Adultes compétiteurs</b><br>19h30 - 22h00</td>
+		</tr>
+		<tr>
+			<td class="td_heures">20H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">21H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">22H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+	</tbody></table>
+	<br/>
+  <table class="t_entrainements">
+		<thead>
+		<tr>
+			<th class="th_heures"></th>
+			<th colspan="3">Jeudi</th>
+		</tr>
+		</thead>
+		<tbody><tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">14H</td>
+			<td colspan="2" rowspan="4" class="td_ora"><b>ORA</b><br><br>14h00 - 16h00</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">15H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">16H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">17H</td>
+			<td colspan="2" rowspan="2" class="td_sport_adapte" colspan="3"><b>Sport adapté</b> / 17h00 - 18h00</td></tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">18H</td>
+			<td colspan="2" rowspan="3" class="td_initiation"><b>Initiation 2</b><br><br>18h00 - 19h30</td>
+			<td rowspan="9" class="td_libre"><b>Entraînement<br>Libre</b><br>+<br><b>Compétition Vétérans</b><br><br>18h00 - 22h30</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">19H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+			<td colspan="1" rowspan="5" class="td_competition"><b>Adultes compétiteurs</b><br>19h30 - 22h00</td>
+			<td colspan="1" rowspan="3" class="td_feminin"><b>Féminines</b><br><br>19h30 - 21h00</td>
+		</tr>
+		<tr>
+			<td class="td_heures">20H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">21H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">22H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+	</tbody></table>
+	<br/>
+  <table class="t_entrainements">
+		<thead>
+		<tr>
+			<th class="th_heures"></th>
+			<th colspan="3">Vendredi</th>
+		</tr>
+		</thead>
+		<tbody><tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">10H</td>
+			<td colspan="3" rowspan="4" class="td_ora"><b>ORA</b><br><br>10h00 - 12h00</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">11H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">12H</td>
+			<td colspan="3" rowspan="4" class="td_espoir"><b>Espoirs</b><br><br>12h00 - 14h00</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">13H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">17H</td>
+			<td colspan="3" rowspan="2" class="td_competition"><b>Espoirs ou Mini Pouss</b><br>17h00 - 18h00</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">18H</td>
+			<td rowspan="3" class="td_poussin"><b>Poussins /<br>Benjamins</b><br>18h00 - 19h30</td>
+			<td rowspan="3" class="td_progress"><b>Progress'</b><br><br>18h00 - 19h30</td>
+			<td rowspan="9" class="td_libre"><b>Entraînement<br>Libre</b><br>+<br><b>Compétition Vétérans</b><br><br>18h00 - 22h30</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">19H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+			<td rowspan="5" class="td_competition"><b>Adultes<br>compétiteurs</b><br>19h30 - 22h00</td>
+			<td rowspan="5" class="td_performance"><b>Performance</b><br><br>19h30 - 22h00</td>
+		</tr>
+		<tr>
+			<td class="td_heures">20H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">21H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">22H</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+	</tbody></table>
+	<br/>
+	<table class="t_entrainements">
+		<thead>
+		<tr>
+			<th class="th_heures"></th>
+			<th colspan="3">Samedi</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">9H</td>
+			<td colspan="2" rowspan="2" class="td_sport_adapte"><b>Individuel</b><br><br>9h00 - 10h00</td>
+			<td rowspan="6" class="td_libre"><b>Entraînement<br>Libre</b><br><br><br>9h00 - 12h00</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">10H</td>
+			<td rowspan="2" class="td_initiation"><b>Baby Ping</b><br>(3 à 6 ans)<br>10h00 - 10h45</td>
+			<td rowspan="2" class="td_initiation"><b>Baby Ping</b><br>(3 à 6 ans)<br>10h00 - 10h45</td>
+
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">10H45</td>
+			<td rowspan="2" class="td_poussin"><b>Mini Pouss</b><br>(7 à 9 ans)<br>10h45 - 12h15</td>
+			<td rowspan="2" class="td_poussin"><b>Mini Pouss</b><br>(7 à 9 ans)<br>10h45 - 12h15</td>
+		</tr>
+		<tr>
+			<td class="td_heures">&nbsp;</td>
+		</tr>
+		<tr>
+			<td class="td_heures">12H15</td>
+		</tr>
+	</tbody></table>
+
+	<br/>
+
+	<p>- Pour les groupes Jeunes, des réajustements par niveau pourront être effectués à chaque période de vacances.</p><br/>
+	<p>- Des ateliers spécifiques ou de types de jeu seront proposés une fois par mois le vendredi (picots, défense …)</p><br/>
+	<p>- Compte tenu des possibilités de la salle, les licenciés pourront venir s’entraîner en libre du mercredi au vendredi à partir de 18 h, et le samedi matin de 9 h à 12 h, sans gêner les cours dirigés.</p>
+	<br/>
 </div>
 	
